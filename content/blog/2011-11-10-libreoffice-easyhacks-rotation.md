@@ -1,0 +1,12 @@
++++
+title="LibreOffice EasyHacks Rotation"
+date=2011-11-10
+[taxonomies]
+originally-published-on=["livejournal"]
++++
+LibreOffice EasyHacks Rotation
+==============================
+
+I just rotated the featured items on the <a href="http://wiki.documentfoundation.org/Development/Easy_Hacks">LibreOffice EasyHacks Page</a>. If you are interested in contributing and wondered what you could do, here are a few selected suggestions:<br /><br /><ul><li><a href="https://bugs.freedesktop.org/buglist.cgi?bug_id=39753">Improving EasyHacks Bugzilla-Wiki integration (Skills: PHP)</a></li><li><a href="https://bugs.freedesktop.org/buglist.cgi?bug_id=39674">find / fix all German spellings in internal APIs (Skills: grep, German, code reading)</a></li><li><a href="https://bugs.freedesktop.org/buglist.cgi?bug_id=38835">strip out non-trivial globals before main (Skills: build, simple C++)</a></li><li><a href="https://bugs.freedesktop.org/buglist.cgi?bug_id=39643">Improve build with/without symbols (Skills: build, autoconf, Perl)</a></li><li>warning-free code (Skills: building the beast, basic C++ skills and the attitude to ask when in doubt)</li><li><a href="https://bugs.freedesktop.org/buglist.cgi?bug_id=39748">Cleanup extensions list (Skills: C++, common sense, build)</a></li><li><a href="https://bugs.freedesktop.org/buglist.cgi?bug_id=38889">Make macro editing easier (Skills: simple C++ programming, willingness to learn a bit of VCL)</a></li><li><a href="https://bugs.freedesktop.org/buglist.cgi?bug_id=39428">audit / remove SvStream long operators (Skills: building, simple C++ programming)</a></li><li><a href="https://bugs.freedesktop.org/buglist.cgi?bug_id=42100">calc sheet tab widget screen space usage</a></li><li><a href="https://bugs.freedesktop.org/buglist.cgi?bug_id=38246">Change visibility of comments / notes via Notes Ruler Control (Skills: C++)</a></li><li><a href="https://bugs.freedesktop.org/buglist.cgi?bug_id=38811">default to SQLite not HSQLDB in Base (Skills: build, C++)</a></li></ul>You will find more info on the <a href="http://wiki.documentfoundation.org/Development/Easy_Hacks">LibreOffice EasyHacks Page</a> and an even wider range of things to do on the <a href="http://wiki.documentfoundation.org/Development/Easy_Hacks_by_required_Skill">EasyHacks by required Skill Page</a>.
+
+This was originally published at 2011-11-10 12:47:00/2011-11-10 11:47:26 on [livejournal](https://sweetshark.livejournal.com/6340.html).
