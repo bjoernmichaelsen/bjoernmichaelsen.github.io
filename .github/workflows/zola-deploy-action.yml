@@ -1,0 +1,15 @@
+on:
+  push:
+    branches:
+      - main
+name: Build and deploy on push
+jobs:
+  build:
+    name: bjoernmichaelsen/zola-deploy-action
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: bjoernmichaelsen/zola-deploy-action
+      uses: bjoernmichaelsen/zola-deploy-action@master
+      env:
+        TOKEN: ${{ secrets.TOKEN }}
