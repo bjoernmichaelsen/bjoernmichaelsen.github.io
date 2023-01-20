@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title></title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://bjoernmichaelsen.github.io/css/bootstrap.min.css">
+  <!-- Custom fonts for this template -->
+  <link href=" https://bjoernmichaelsen.github.io/css/all.min.css" rel=" stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="https://bjoernmichaelsen.github.io/clean-blog.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https:&#x2F;&#x2F;bjoernmichaelsen.github.io"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;bjoernmichaelsen.github.io">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;bjoernmichaelsen.github.io&#x2F;about">About</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('https://bjoernmichaelsen.github.io/img/post-bg.jpg')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          
+<h1>Building Libreoffice in half an hour on Ubuntu Oneiric (without cheating)</h1>
+<span class="meta">Posted by
+    <a href="#">Bjoern Michaelsen</a>
+    on 24 October 2011
+</span>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <h1 id="building-libreoffice-in-half-an-hour-on-ubuntu-oneiric-without-cheating">Building Libreoffice in half an hour on Ubuntu Oneiric (without cheating)</h1>
+<p>I recently bought myself an old IBM x3800. After the 65kg has been moved into my apartment and Oneiric has been installed on it, I tried to have a look at how fast I could get with my hardware. So I cleaned my ccache (this is the &quot;without cheating&quot; from the title) and started a build from my notebook with distccd running on the other machines.<br />So all in all I had:<br /><ul><li>one Lenovo W520 notebook (4 core i7-2720QM with 16GB RAM)</li><li>one Sun Ultra 24 workstation (4 core Q9650 with 8GB RAM)</li><li>one IBM x3800 (8 core Xeon MP 3.16Mhz with 8GB RAM)</li></ul>and the development build<sup>1)</sup> chugged in after 32 Minutes. Rebuilding from ccache took ~8 minutes on that machine, so &quot;pure compile time&quot; was ~25 Minutes. Of course, starting the build on one of the other machines would likely have been a bit faster still as:<ul><li>the Sun Ultra is about twice as fast alone as the notebook alone (full build in &lt;1 hour)</li><li>the notebook did not run on a software RAID-0 (like the others would)</li><li>the notebook did not mount the build platform with noatime, which would be good for a few additional minutes of saved time</li></ul>So: When doing a lot of work on Libreoffice, RAID-0 and noatime (together with distcc and ccache) are to be considered. However, If you are new the code, you probably only want to care about:<ul><li>ccache</li><li>--disable-mozilla</li><li>--disable-binfilter</li></ul>all the other stuff is only getting interesting once you are doing very regular work on Libreoffice. And an since it is getting winter again on the northern hemisphere: An IBM x3800 is a nice way to heat your apartment, if it was not for the noise and the electricity bills.<br /><br /><span style="font-size: smaller;"><sup>1)</sup> 2 jobs per core and:</span><br />  <span style="font-size: smaller;">./autogen.sh &lt;br /&gt;  --disable-mozilla --disable-binfilter </span><span style="font-size:smaller;">--disable-zenity &lt;/span&gt;<br /><span style="font-size: smaller;">  --with-junit=${HOME}/.jenkins/junit-4.9b2.jar </span><span style="font-size:smaller;">--with-external-tar=<code>readlink -f ${WORKSPACE}/../../tarfiles/workspace</code> &lt;/span&gt;<br /><span style="font-size:smaller;">  --without-help --without-myspell-dicts &lt;br /&gt;  --with-system-libs &lt;br /&gt;  --without-system-libvisio --without-system-libcmis --without-system-jars --without-system-graphite --without-system-lpsolve --without-system-libexttextcat --without-system-poppler --enable-librsvg=no &lt;br /&gt;  --with-num-cpus=35 --with-max-jobs=35</span><br /></p>
+<p>This was originally published at 2011-10-24 17:13:00/2011-10-24 15:13:39 on <a href="https://sweetshark.livejournal.com/5905.html">livejournal</a>.</p>
+
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            <li class="list-inline-item">
+              <a href="https:&#x2F;&#x2F;bjoernmichaelsen.github.io&#x2F;rss.xml">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Bjoern Michaelsen
+            2022</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://bjoernmichaelsen.github.io/js/jquery.min.js"></script>
+  <script src="https://bjoernmichaelsen.github.io/js/bootstrap.bundle.min.js"></script>
+
+  <!--Custom scripts for this template-->
+  <script src="https://bjoernmichaelsen.github.io/js/clean-blog.min.js"></script>
+
+  <!--- Additional scripts -->
+  
+  
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title></title>
+
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://bjoernmichaelsen.github.io/css/bootstrap.min.css">
+  <!-- Custom fonts for this template -->
+  <link href=" https://bjoernmichaelsen.github.io/css/all.min.css" rel=" stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+    type='text/css'>
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="https://bjoernmichaelsen.github.io/clean-blog.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https:&#x2F;&#x2F;bjoernmichaelsen.github.io"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;bjoernmichaelsen.github.io">Home</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;bjoernmichaelsen.github.io&#x2F;about">About</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  
+<!-- Page Header -->
+<header class="masthead" style="background-image: url('https://bjoernmichaelsen.github.io/img/post-bg.jpg')">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          
+<h1>gbuild: Eyecandy for developers</h1>
+<span class="meta">Posted by
+    <a href="#">Bjoern Michaelsen</a>
+    on 26 July 2011
+</span>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+  
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <h1 id="gbuild-eyecandy-for-developers">gbuild: Eyecandy for developers</h1>
+<blockquote>      <p><i>This is the fourth post in a short series of blog posts about the new GNU  make based build system that will soon be integrated into the DEV300  codeline. It is covering getting nice output from gbuild.</i></p>    </blockquote>    <p>Welcome back to the&nbsp;little blog series about the new GNU make build system. After talking about <a href="http://planets.sun.com/GullFOSS/entry/gbuild_how_to_setup_a">the dry topic of repositories</a>,  this post is a just a short post about the output of the new build  system. It tries to keep the output calm and clean by default. When you  start a build with:</p>    <blockquote style="background-color: rgb(210, 210, 210);">      <p><font face="courier new,courier,monospace">make -srj9</font></p>    </blockquote>    <p>you will get an kbuild-like output:</p>    <p style="background-color: rgb(210, 210, 210);">&nbsp;</p>    <blockquote style="background-color: rgb(210, 210, 210);"><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">[ build CXX ] tools/source/misc/pathutils</font><br /><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">[ build LOG ] tools</font><br /><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">[ build LNK ] Library/libtllx.so</font><br /><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">...</font><br /><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">[ build MOD ] tools</font><br /><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">[ build ALL ] top level modules: tools</font><br /><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">[ build ALL ] loaded modules: tools</font><br /></blockquote>    <p>A <font face="courier new,courier,monospace">make clean</font> command result in the same clean output but with &quot;clean&quot; instead of &quot;build&quot;. When setting some variables:</p>    <blockquote style="background-color: rgb(210, 210, 210);">      <p><font face="courier new,courier,monospace">export gb_TITLES=T gb_COLOR=T</font></p>    </blockquote>    <p>The output gets a little more attractive:<br /><a href="http://pics.livejournal.com/sweetshark/pic/0000665f/"><img border="0" align="middle" width="640" height="400" alt="" src="http://pics.livejournal.com/sweetshark/pic/0000665f/s640x480" /></a></p>The left column shows a <font face="courier new,courier,monospace">make clean</font>, the middle column a <font face="courier new,courier,monospace">make/make all</font> (top: with color, bottom: without color). The <font face="courier new,courier,monospace">__.oO</font> and <font face="courier new,courier,monospace">Xx.__</font>  ASCII art represent my best attempt at symbolizing a building/cleaning  target. If you have a better idea, give me a note. Please note that the  colored output will also help when using a verbose build as it will  stick out between all the other output and allows easier orientation in  the output. The <font face="courier new,courier,monospace">gb_TITLES=T</font> enables that the progress is also shown in the terminal title. Screenshots are not very good at conveying that, unfortunately.    <p>The two terminal windows on the right show some of the verbose error messages that the gbuild  system issues when it deems something wrong. Please note that these  errors are reported early (before starting to really build anything) and  not late (when trying to actually compile/link something that does not  exist).</p>    <p>Here are a few conditions, that gbuild will try to detect and complain about:</p>    <ul><li>initial makefile outside of the source repositories</li><li>no call to <font face="courier new,courier,monospace">gb_Helper_register_repository</font> in the <font face="courier new,courier,monospace">Repository.mk</font></li><li>adding an executable/library to an invalid group in <font face="courier new,courier,monospace">gb_Helper_register_*</font> (The error message will report the valid groups.)</li><li>corrupted module stacks</li><li>adding a object to a library which has no C/C++ source file in any of the repositories</li><li>generating a component file which has no source file in any of the repositories</li><li>generating resource for which there is no source file in any of the repositories</li><li>linking against a library that was not registered in <font face="courier new,courier,monospace">Repository.mk</font></li><li>defining a library that was not registered in <font face="courier new,courier,monospace">Repository.mk</font></li><li>unknown platform</li></ul>That is it for this post. The next one will be about issuing  build commands and how the commands in the new build system compare to  those in the old build.pl/dmake combination.<br /><br />(This is a very raw mirror of the original blog post made to blogs.sun.com  on 21 Dec 2010. As per <a href="http://web.archive.org/web/20090627144253/http://www.sun.com/termsofuse.jsp" rel="nofollow">http://web.archive.org/web/2009062714425<wbr></wbr>3/http://www.sun.com/termsofuse.jsp </a>   &quot;... You grant Sun and all other users of the Website an irrevocable,   worldwide, royalty-free, nonexclusive license to use, reproduce,  modify,  distribute, transmit, display, perform, adapt, resell and  publish such  Content (including in digital form) ...&quot; )
+<p>This was originally published at 2011-07-26 10:24:00/2011-07-26 08:24:55 on <a href="https://sweetshark.livejournal.com/2865.html">livejournal</a>.</p>
+
+        
+      </div>
+    </div>
+  </div>
+</article>
+
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            
+            <li class="list-inline-item">
+              <a href="https:&#x2F;&#x2F;bjoernmichaelsen.github.io&#x2F;rss.xml">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; Bjoern Michaelsen
+            2022</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="https://bjoernmichaelsen.github.io/js/jquery.min.js"></script>
+  <script src="https://bjoernmichaelsen.github.io/js/bootstrap.bundle.min.js"></script>
+
+  <!--Custom scripts for this template-->
+  <script src="https://bjoernmichaelsen.github.io/js/clean-blog.min.js"></script>
+
+  <!--- Additional scripts -->
+  
+  
+</body>
+
+</html>
