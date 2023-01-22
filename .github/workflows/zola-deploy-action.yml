@@ -29,8 +29,6 @@ jobs:
     - uses: actions/checkout@main
     - name: Build with Zola
       uses: bjoernmichaelsen/zola-deploy-action@main
-#      env:
-#        TOKEN: ${{ secrets.TOKEN }}
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v1
       with:
