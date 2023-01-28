@@ -15,7 +15,19 @@ gbuild: Eyecandy for developers
 
 <p>you will get an kbuild-like output:</p>
 
-> <font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">[ build CXX ] tools/source/misc/pathutils</font><br /><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">[ build LOG ] tools</font><br /><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">[ build LNK ] Library/libtllx.so</font><br /><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">...</font><br /><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">[ build MOD ] tools</font><br /><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">[ build ALL ] top level modules: tools</font><br /><font face="courier new,courier,monospace" style="background-color: rgb(210, 210, 210);">[ build ALL ] loaded modules: tools</font><br />
+> <font face="courier new,courier,monospace">[ build CXX ] tools/source/misc/pathutils</font>
+>
+> <font face="courier new,courier,monospace">[ build LOG ] tools</font>
+>
+> <font face="courier new,courier,monospace">[ build LNK ] Library/libtllx.so</font>
+>
+> <font face="courier new,courier,monospace">...</font>
+>
+> <font face="courier new,courier,monospace">[ build MOD ] tools</font>
+>
+> <font face="courier new,courier,monospace">[ build ALL ] top level modules: tools</font>
+>
+> <font face="courier new,courier,monospace">[ build ALL ] loaded modules: tools</font>
 
 <p>A <font face="courier new,courier,monospace">make clean</font> command result in the same clean output but with &quot;clean&quot; instead of &quot;build&quot;. When setting some variables:</p>
 
