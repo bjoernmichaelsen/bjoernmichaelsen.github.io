@@ -1,3 +1,5 @@
 [submodule "themes/zola-clean-blog"]
 	path = themes/zola-clean-blog
 	url = https://github.com/bjoernmichaelsen/zola-clean-blog
+[submodule "themes/zola-clean-blog/"]
+	branch = main
