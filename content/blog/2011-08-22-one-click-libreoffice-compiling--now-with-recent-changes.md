@@ -13,13 +13,9 @@ One-click LibreOffice compiling, now with recent changes
  <li>fetch a coffee or tea</li>
  <li>have a look at what happened on master since your last build:</li>
 </ul>
-<div style="text-align: center;">
- <br />
- <br />
- <br />
- <a href="http://pics.livejournal.com/sweetshark/pic/00007ct9/"><img border="0" height="480" src="http://pics.livejournal.com/sweetshark/pic/00007ct9/s640x480" width="517" /></a></div>
-<br />
-<br />
-<br />And yes, the &quot;detail&quot; link show the commit locally and the &quot;gitweb&quot; links go to <a href="http://cgit.freedesktop.org/libreoffice/core/commit">http://cgit.freedesktop.org/libreoffice/core/commit</a> .
+
+![jenkins screenshot](/img/lj/2011-08-22-jenkins.png)
+
+And yes, the &quot;detail&quot; link show the commit locally and the &quot;gitweb&quot; links go to <a href="http://cgit.freedesktop.org/libreoffice/core/commit">http://cgit.freedesktop.org/libreoffice/core/commit</a> .
 
 This was originally published at 2011-08-22 13:56:00/2011-08-22 11:56:54 on [livejournal](https://sweetshark.livejournal.com/4298.html).
