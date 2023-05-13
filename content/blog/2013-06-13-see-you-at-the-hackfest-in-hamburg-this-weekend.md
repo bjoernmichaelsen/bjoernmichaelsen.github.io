@@ -22,4 +22,4 @@ This weekend the LibreOffice community will meet again in Hamburg for the third 
 <img class="aligncenter size-full wp-image-506" alt="Schachcafe" src="/static/img/wp/2013/06/schachcafe.jpg" width="225" height="341" />
 
 All details can be found on the <strong><a href="https://wiki.documentfoundation.org/Hackfest/Hamburg2013">Hackfest 2013 wiki page</a></strong>. Thanks to <a href="http://www.lanedo.com/">Lanedo</a> for sponsoring this event and also big thanks to <a href="http://blog.attraktor.org/">Attraktor.org</a> for hosting us again!
-Originally published on 2013-06-13 13:10:05 at https://skyfromme.wordpress.com/2013/06/13/see-you-at-the-hackfest-in-hamburg-this-weekend/.
+Originally published on 2013-06-13 13:10:05 on [wordpress](https://skyfromme.wordpress.com/2013/06/13/see-you-at-the-hackfest-in-hamburg-this-weekend/).

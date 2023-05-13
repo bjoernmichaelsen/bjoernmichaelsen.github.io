@@ -26,4 +26,4 @@ Instant Karma -- a pledge and a plea
 So please: Make me pay!
 
 <a href="http://donate.libreoffice.org/"><img class="aligncenter size-full wp-image-310" alt="donate" src="/static/img/wp/2012/12/libowebsitebannersdonateen400b.png" width="400" height="64" /></a>
-Originally published on 2012-12-14 12:16:30 at https://skyfromme.wordpress.com/2012/12/14/instant-karma-a-pledge-and-a-plea/.
+Originally published on 2012-12-14 12:16:30 on [wordpress](https://skyfromme.wordpress.com/2012/12/14/instant-karma-a-pledge-and-a-plea/).

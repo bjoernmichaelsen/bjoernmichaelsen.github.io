@@ -47,7 +47,7 @@ where W: Write {
     writeln!(w, "{title_underline}");
     writeln!(w, "");
     writeln!(w, "{content}");
-    writeln!(w, "Originally published on {post_date} at {link}.");
+    writeln!(w, "Originally published on {post_date} on [wordpress]({link}).");
 }
 
 fn parse_wp<R>(r: R, old_link_prefix: &str, new_link_prefix: &str) -> HashMap<String, String>
@@ -93,7 +93,9 @@ where R: Read  {
                         let cats = format_categories(categories.iter().map(String::as_str));
                         let fixed_link_content = fix_media_links(encoded.as_str(), old_link_prefix, new_link_prefix);
                         write_article(&mut article_content, post_date.as_str(), title.as_str(), link.as_str(), cats.as_str(), fixed_link_content.as_str());
-                        articles.insert(article_filename, article_content);
+                        if(encoded.len() > 0) {
+                            articles.insert(article_filename, article_content);
+                        }
                         encoded.clear();
                         categories.clear();
                     }

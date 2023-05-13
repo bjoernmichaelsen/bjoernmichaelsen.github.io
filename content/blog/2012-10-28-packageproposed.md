@@ -9,4 +9,4 @@ the package is proposed
 =======================
 
 the package is proposed
-Originally published on 2012-10-28 23:43:26 at https://skyfromme.wordpress.com/2012/10/29/libreoffice-quantal-features-unity-integration-packagekit-and-templates/packageproposed/.
+Originally published on 2012-10-28 23:43:26 on [wordpress](https://skyfromme.wordpress.com/2012/10/29/libreoffice-quantal-features-unity-integration-packagekit-and-templates/packageproposed/).

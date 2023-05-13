@@ -26,4 +26,4 @@ Additionally, with some <a href="https://gerrit.libreoffice.org/#/q/status:merge
 	<li>sw/source/uibase</li>
 </ul>
 So far, it seems the hope I expressed at the conference that getting rid of SwClient and SwModify (leaving aside the core layout for now) seems to be quite doable and well worth it for the errors and fragility this will prevent in those areas of code.
-Originally published on 2019-09-24 17:31:07 at https://skyfromme.wordpress.com/2019/09/24/yak-shaving-progress-report/.
+Originally published on 2019-09-24 17:31:07 on [wordpress](https://skyfromme.wordpress.com/2019/09/24/yak-shaving-progress-report/).

@@ -115,4 +115,4 @@ The great filter of open source projects
 <!-- wp:paragraph -->
 <p>(3) The Document Foundation receives significant donations from individuals compared to other open source projects. <a href="https://people.gnome.org/~michael/blog/2020-09-15.html">Michael Meeks has some numbers on the value of developer contributions in kind to compare them to and put them in perspective.</a></p>
 <!-- /wp:paragraph -->
-Originally published on 2020-09-20 20:49:56 at https://skyfromme.wordpress.com/2020/09/20/the-great-filter-of-open-source-projects/.
+Originally published on 2020-09-20 20:49:56 on [wordpress](https://skyfromme.wordpress.com/2020/09/20/the-great-filter-of-open-source-projects/).

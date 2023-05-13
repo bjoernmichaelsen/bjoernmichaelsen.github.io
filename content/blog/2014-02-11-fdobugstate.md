@@ -9,4 +9,4 @@ LibreOffice bug states on freedesktop
 =====================================
 
 LibreOffice bug states on freedesktop
-Originally published on 2014-02-11 18:35:30 at https://skyfromme.wordpress.com/2014/02/11/libreoffice-bugzilla-status/fdobugstate/.
+Originally published on 2014-02-11 18:35:30 on [wordpress](https://skyfromme.wordpress.com/2014/02/11/libreoffice-bugzilla-status/fdobugstate/).

@@ -94,4 +94,4 @@ They can also create builds for <a href="https://wiki.documentfoundation.org/QA/
 (*) This is helpful for some test suites like e.g. subsequentcheck. If you do a build as proposed by the coordinator, you can cheaply report back the result of the build <em>only</em>. And since you then can just the subsequentcheck test suite on top of the build of that commit (and <em>only</em> on that commit), you can then report to be running these tests and report the results without ever caring if the coordinator thinks this commit has as high priority for this.
 
 postscriptum: Yeah, I know, I promised to be on vacation now and not harass you with any posts, but this is a scheduled blogpost and as such does not count.
-Originally published on 2013-08-03 15:00:18 at https://skyfromme.wordpress.com/2013/08/03/tb3-more-efficient-tinderboxing/.
+Originally published on 2013-08-03 15:00:18 on [wordpress](https://skyfromme.wordpress.com/2013/08/03/tb3-more-efficient-tinderboxing/).

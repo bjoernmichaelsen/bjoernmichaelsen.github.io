@@ -19,4 +19,4 @@ Gimme Fuel, Gimme Fire
 
 [caption id="attachment_711" align="aligncenter" width="300"]<a href="/static/img/wp/2013/11/lo420alpha-on-trusty.png"><img class="size-medium wp-image-711" alt="LibreOffice 4.2.0 alpha1 and a hint of the new Startcenter on Ubuntu Trusty Tahr" src="/static/img/wp/2013/11/lo420alpha-on-trusty.png?w=300" width="300" height="225" /></a> LibreOffice 4.2.0 alpha1 and a hint of the new startcenter on Ubuntu Trusty Tahr[/caption]
 <p style="text-align:left;">Happy testing!</p>
-Originally published on 2013-11-13 12:45:23 at https://skyfromme.wordpress.com/2013/11/13/gimme-fuel-gimme-fire/.
+Originally published on 2013-11-13 12:45:23 on [wordpress](https://skyfromme.wordpress.com/2013/11/13/gimme-fuel-gimme-fire/).

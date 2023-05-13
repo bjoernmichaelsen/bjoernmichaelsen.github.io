@@ -34,4 +34,4 @@ This is one of the things that snap packages will make a lot easier: upgrading o
 <strong>Update: </strong>As this has been asked a few times: Yes, snap packages are available on Ubuntu. No, snap packages are not only available on Ubuntu. <a href="https://insights.ubuntu.com/2016/06/14/universal-snap-packages-launch-on-multiple-linux-distros/">This text</a> has more details.
 
 <strong>Update 2: </strong>The original download included debug symbols and thus was quite big. The download now has 287MB. <a href="https://skyfromme.wordpress.com/2016/06/16/a-third-of-a-libreoffice-snap/">This post</a> has all the details.
-Originally published on 2016-06-14 08:03:42 at https://skyfromme.wordpress.com/2016/06/14/libreoffice-5-2-0-beta2-as-a-snap-package/.
+Originally published on 2016-06-14 08:03:42 on [wordpress](https://skyfromme.wordpress.com/2016/06/14/libreoffice-5-2-0-beta2-as-a-snap-package/).

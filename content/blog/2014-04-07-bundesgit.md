@@ -9,4 +9,4 @@ bundesgit
 ==========
 
 BundesGit for LibreOffice
-Originally published on 2014-04-07 16:08:05 at https://skyfromme.wordpress.com/2014/04/07/announcing-bundesgit-for-libreoffice/bundesgit/.
+Originally published on 2014-04-07 16:08:05 on [wordpress](https://skyfromme.wordpress.com/2014/04/07/announcing-bundesgit-for-libreoffice/bundesgit/).

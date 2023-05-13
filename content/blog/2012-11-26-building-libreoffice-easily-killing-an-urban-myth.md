@@ -25,4 +25,4 @@ Building LibreOffice easily, killing an urban myth
 <div style="text-align:left;"><strong>UPDATE:</strong></div>
 <div style="text-align:left;">Now also on youtube:</div>
 <div style="text-align:center;">[youtube http://www.youtube.com/watch?v=2gIqOOajdYQ&amp;w=560&amp;h=315]</div>
-Originally published on 2012-11-26 22:09:17 at https://skyfromme.wordpress.com/2012/11/26/building-libreoffice-easily-killing-an-urban-myth/.
+Originally published on 2012-11-26 22:09:17 on [wordpress](https://skyfromme.wordpress.com/2012/11/26/building-libreoffice-easily-killing-an-urban-myth/).

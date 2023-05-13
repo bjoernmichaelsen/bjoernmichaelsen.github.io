@@ -25,4 +25,4 @@ MessageBox API change
 	<li><a href="https://wiki.documentfoundation.org/Development/Extension_Development">Extensions should use "LibreOffice-minimal-version"</a> anyway by now (see example above on how to do that), it is the best way to ensure you get a well known API with welldocumented changes.</li>
 </ul>
 So, the short answer to the question to "what changed in LibreOffice 4.2.4?" is: Nothing, if your extension uses LibreOffice-minimal-version as recommended.
-Originally published on 2014-05-12 17:47:39 at https://skyfromme.wordpress.com/2014/05/12/messagebox-api-change/.
+Originally published on 2014-05-12 17:47:39 on [wordpress](https://skyfromme.wordpress.com/2014/05/12/messagebox-api-change/).

@@ -23,4 +23,4 @@ Roadwarrioring and visiting Freiburg
 
 So, whats next? FOSDEM! We will of course be there again, and back-to-back with the event we will have a user experience Hackfest in Bruessels. So come and <a href="https://wiki.documentfoundation.org/Hackfest/FOSDEM2014">join us</a>:
 <a href="https://wiki.documentfoundation.org/Hackfest/FOSDEM2014"><img src="https://wiki.documentfoundation.org/images/thumb/d/d5/BrusselsUXHackfest2014.png/335px-BrusselsUXHackfest2014.png" width="335" height="112" class="alignnone" /></a>
-Originally published on 2013-11-28 21:30:29 at https://skyfromme.wordpress.com/2013/11/28/roadwarrioring-and-visiting-freiburg/.
+Originally published on 2013-11-28 21:30:29 on [wordpress](https://skyfromme.wordpress.com/2013/11/28/roadwarrioring-and-visiting-freiburg/).
