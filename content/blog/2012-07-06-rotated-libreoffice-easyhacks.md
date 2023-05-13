@@ -71,4 +71,5 @@ I just rotated the featured items on the <a href="http://wiki.documentfoundation
 </ul>
 </ul>
 You will find more info on the <a href="http://wiki.documentfoundation.org/Development/Easy_Hacks" rel="nofollow">LibreOffice EasyHacks Page</a> and an even wider range of things to do on the <a href="http://wiki.documentfoundation.org/Development/Easy_Hacks_by_required_Skill" rel="nofollow">EasyHacks by required Skill Page</a>.
+
 Originally published on 2012-07-06 15:29:29 on [wordpress](https://skyfromme.wordpress.com/2012/07/06/rotated-libreoffice-easyhacks/).

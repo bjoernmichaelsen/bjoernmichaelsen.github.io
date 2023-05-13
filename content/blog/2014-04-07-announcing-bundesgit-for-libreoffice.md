@@ -37,4 +37,5 @@ On the other hand, the extension is a good example what you can do with<strong> 
 addendum: This has been featured on <a href="http://www.golem.de/news/dank-git-aktuelle-bundesgesetze-in-libreoffice-1404-105687.html">golem.de</a> and <a href="http://www.linux-magazin.de/NEWS/Bundesgit-fuer-Libre-Office/%28language%29/ger-DE">linux-magazin.de</a> (both german).
 
 &nbsp;
+
 Originally published on 2014-04-07 16:39:45 on [wordpress](https://skyfromme.wordpress.com/2014/04/07/announcing-bundesgit-for-libreoffice/).

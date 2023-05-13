@@ -17,4 +17,5 @@ LibreOffice 5.2.3 as snap from Day One
 <p style="text-align:left;">All in all, this is great progress: LibreOffice 5.2.3 is available to users of Ubuntu 16.10 and Ubuntu 16.04 LTS as a snap on the day of the upstream release. And beyond that on all other distributions where snap is available — <a href="http://snapcraft.io/">quite a few these days</a>.</p>
 <p style="text-align:left;"><strong>Update:</strong> ICYMI here is how to get the LibreOffice snap: <a href="http://www.libreoffice.org/download/snap/">http://www.libreoffice.org/download/snap/</a> — although strictly speaking you dont need the <code>--channel=beta</code> option anymore now. I will fix that soon.</p>
 <p style="text-align:left;"></p>
+
 Originally published on 2016-11-04 16:52:42 on [wordpress](https://skyfromme.wordpress.com/2016/11/04/libreoffice-5-2-3-as-snap-from-day-one/).

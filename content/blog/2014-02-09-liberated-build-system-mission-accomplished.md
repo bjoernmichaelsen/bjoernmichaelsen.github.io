@@ -29,4 +29,5 @@ So if you haven't done that yet, consider graping an <a href="https://wiki.docum
 A copy of the original .odp is also available at <a href="https://fosdem.org/2014/schedule/event/liberated_build_system_mission_accomplished/">FOSDEM</a> or on the<a href="https://wiki.documentfoundation.org/User:Bjoern-michaelsen"> LibreOffice wiki</a>.
 
 <sup>(*)</sup> This includes checking 1.3GB of generated c++ dependency files for some &gt;8000 object files, <a href="https://gerrit.libreoffice.org/gitweb?p=core.git;a=blob;f=solenv/bin/concat-deps.c;h=a64723f476d77f88c147545dc8844ac47c44dfb2;hb=53c84ea21e4e709f3b40d5f56ce764f0c4ce1fc7">which we simplify to &lt;350MB</a>.
+
 Originally published on 2014-02-09 18:40:50 on [wordpress](https://skyfromme.wordpress.com/2014/02/09/liberated-build-system-mission-accomplished/).

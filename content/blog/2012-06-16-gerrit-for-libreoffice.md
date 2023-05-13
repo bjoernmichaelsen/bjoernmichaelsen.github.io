@@ -28,4 +28,5 @@ For core developers, who want to review uploaded patches, this is needed:
 	<li>done</li>
 </ul>
 I hope, we can again lower the barrier to entry for new contributors and make the progress of LibreOffice more transparent with this. In addition, it will simplify the discussion of certain changes and give it some more structure. Finally, this enables us to significantly improve the use of our <a href="http://tinderbox.libreoffice.org/MASTER/status.html" rel="nofollow">tinderboxes</a>. I expect <a href="http://nabble.documentfoundation.org/probabilistic-approach-to-tinderboxing-td3989662.html" rel="nofollow">a lot of good things</a> to happen there soon.
+
 Originally published on 2012-06-16 15:28:13 on [wordpress](https://skyfromme.wordpress.com/2012/06/16/gerrit-for-libreoffice/).

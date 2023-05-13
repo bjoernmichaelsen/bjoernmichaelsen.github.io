@@ -36,4 +36,5 @@ If there are topics to work on, a local Hackfest should be easy to support. I wi
 [caption id="attachment_1447" align="alignnone" width="3632"]<img class="alignnone size-full wp-image-1447" src="https://skyfromme.files.wordpress.com/2018/04/dsc02479.jpg" alt="DSC02479.JPG" width="3632" height="5456" /> Hackfest or Barcamp? Your Call!<br /><small>(c) 2018 Bjoern Michaelsen. All rights resevered.</small>[/caption]
 
 Finally: Thanks again to <a href="https://freiheit.com/">freiheit.com</a> for hosting us!
+
 Originally published on 2018-04-18 08:30:35 on [wordpress](https://skyfromme.wordpress.com/2018/04/18/libreoffice-hamburg-hackfest-2018-after-action-report-and-wheres-next/).

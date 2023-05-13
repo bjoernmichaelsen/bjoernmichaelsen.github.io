@@ -25,4 +25,5 @@ I recently updated the QA EasyHacks, here is a selection of Tasks related to QA 
 	<li><a href="https://bugs.freedesktop.org/show_bug.cgi?id=41256" rel="nofollow" target="_blank">Easy Hack 41256</a> - BSA: no operation system selection in bugassistant</li>
 </ul>
 A full list of QA-related things to get started in the project can be found here: <a href="https://wiki.documentfoundation.org/QA/Easy_Hacks" rel="nofollow">https://wiki.documentfoundation.org/QA/Easy_Hacks</a>
+
 Originally published on 2012-05-18 15:39:58 on [wordpress](https://skyfromme.wordpress.com/2012/05/18/updated-libreoffice-qa-easyhacks/).
