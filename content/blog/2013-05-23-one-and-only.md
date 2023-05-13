@@ -25,4 +25,4 @@ Also the following releases (which are not supported anymore) have been done in 
 	<li>Ubuntu 11.10 (Oneiric Ocelot) with LibreOffice 3.4</li>
 </ul>
 Looking back in time at the angstridden, not-acting-but-reacting excitement of the early days and comparing it with the way we are really pushing the envelope now, we have really come a long way, improving with every step on the way. Well worth a celebration with one of the most cheesy 1990ies hits ever - Thanks to everyone, who was and is part of this!
-Originally published on 2013-05-23 08:10:46 at https://skyfromme.wordpress.com/2013/05/23/one-and-only/.
+Originally published on 2013-05-23 08:10:46 on [wordpress](https://skyfromme.wordpress.com/2013/05/23/one-and-only/).

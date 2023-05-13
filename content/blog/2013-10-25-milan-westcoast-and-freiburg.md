@@ -26,4 +26,4 @@ I didnt bring my own camera and thus missed making pictures during e.g. the live
 [caption id="attachment_695" align="aligncenter" width="212"]<a href="/static/img/wp/2013/10/freiburg.jpeg"><img class="size-medium wp-image-695" alt="Freiburg Hackfest Flyer" src="/static/img/wp/2013/10/freiburg.jpeg?w=212" width="212" height="300" /></a> <a href="https://wiki.documentfoundation.org/Hackfest/Freiburg2013">Freiburg Hackfest Flyer</a>[/caption]
 
 <sup>(*)</sup> actually they: By far, the most awesome stuff is now done by others than me
-Originally published on 2013-10-25 19:04:36 at https://skyfromme.wordpress.com/2013/10/25/milan-westcoast-and-freiburg/.
+Originally published on 2013-10-25 19:04:36 on [wordpress](https://skyfromme.wordpress.com/2013/10/25/milan-westcoast-and-freiburg/).

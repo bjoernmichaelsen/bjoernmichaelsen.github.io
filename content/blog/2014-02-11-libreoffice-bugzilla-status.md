@@ -28,4 +28,4 @@ On the other hand:
 Its interesting to see how now a quarter of the confirmed unresolved reports are asking for new features and enhancements. Its gets even more encouraging, if you take into account that the number of bugs reports is at a long term constant 20-25 reports per day, while over 40% of the bugs intentionally or collaterally fixed changed their state in the last 12 month. So we are picking up speed in triaging and fixing bugs, while the influx of new reports stays constant.
 
 If you are interested, please help QA quite a bit in all this by writing good bug reports, identifying duplicates, confirming new reports, <a href="https://wiki.documentfoundation.org/Bibisect">bibisecting regressions</a>, run and test daily builds and prereleases or otherwise helping with the <a href="https://wiki.documentfoundation.org/QA/Easy_Hacks">QA Easy Hacks!</a>
-Originally published on 2014-02-11 18:54:44 at https://skyfromme.wordpress.com/2014/02/11/libreoffice-bugzilla-status/.
+Originally published on 2014-02-11 18:54:44 on [wordpress](https://skyfromme.wordpress.com/2014/02/11/libreoffice-bugzilla-status/).

@@ -30,4 +30,4 @@ confirms Michael is more than living up to his personal goals.
 <sup>3) </sup>And along with that did bring coverage of <a href="http://lcov.libreoffice.org/sw/source/core/unocore/unochart.cxx.gcov.html">unochart.cxx</a> from abismal 4.4% LOC to at least 35.31% LOC  as a collateral damage.
 
 <strong><em>addendum: </em></strong>Note that the writer tables core also increased coverage quite a bit from <a href="http://dev-builds.libreoffice.org/lcov_reports/master~2014-11-02_22.37.32/sw/source/core/table/index.html">54.6% LOC</a> to <a href="http://lcov.libreoffice.org/sw/source/core/table/index.html">65% LOC</a>.
-Originally published on 2015-06-26 12:29:54 at https://skyfromme.wordpress.com/2015/06/26/i-would-kill-500-lines-and-i-would-kill-500-more/.
+Originally published on 2015-06-26 12:29:54 on [wordpress](https://skyfromme.wordpress.com/2015/06/26/i-would-kill-500-lines-and-i-would-kill-500-more/).

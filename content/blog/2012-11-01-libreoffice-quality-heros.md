@@ -56,4 +56,4 @@ You are of course invited to join the developers fixing the HardHacks or the the
 (*) ignoring feature requests
 
 <strong>UPDATE: </strong>Kohei is such a humble and honest man -- he just notified me that I should read <a href="https://bugs.freedesktop.org/show_bug.cgi?id=46100" rel="nofollow">fdo#48366</a> and recheck whom to credit for it: Its really Markus Mohrhard, so one more fix in that provided by unaffiliated volunteer (moving Markus up to position two in that list too).
-Originally published on 2012-11-01 16:53:43 at https://skyfromme.wordpress.com/2012/11/01/libreoffice-quality-heros/.
+Originally published on 2012-11-01 16:53:43 on [wordpress](https://skyfromme.wordpress.com/2012/11/01/libreoffice-quality-heros/).

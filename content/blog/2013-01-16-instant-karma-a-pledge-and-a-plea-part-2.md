@@ -163,4 +163,4 @@ Here is how some Hackfests look like:
 [caption id="attachment_345" align="aligncenter" width="519"]<a href="/static/img/wp/2013/01/2012-11-14-libocon-group-photo1024.jpeg"><img class="size-full wp-image-345" alt="LibreOffice Conference 2012, Berlin" src="/static/img/wp/2013/01/2012-11-14-libocon-group-photo1024.jpeg" width="519" height="346" /></a> LibreOffice Conference 2012, Berlin[/caption]
 
 Oh, and: <a href="https://fosdem.org/2013/schedule/track/libreoffice/">LibreOffice will be at FOSDEM 2013 in a few weeks like every year so far!</a>
-Originally published on 2013-01-16 18:21:03 at https://skyfromme.wordpress.com/2013/01/16/instant-karma-a-pledge-and-a-plea-part-2/.
+Originally published on 2013-01-16 18:21:03 on [wordpress](https://skyfromme.wordpress.com/2013/01/16/instant-karma-a-pledge-and-a-plea-part-2/).

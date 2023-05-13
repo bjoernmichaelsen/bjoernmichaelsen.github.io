@@ -19,4 +19,4 @@ Also note the older page by Christopher M. Penalver about Bug Filing against Lib
 	<li><a href="https://wiki.ubuntu.com/LibreOfficeBugWrangling" rel="nofollow">Bug reporting against LibreOffice on Ubuntu</a></li>
 </ul>
 completing the bunch.
-Originally published on 2012-06-08 15:21:52 at https://skyfromme.wordpress.com/2012/06/08/ubuntu-libreoffice-development-kickstart-guide/.
+Originally published on 2012-06-08 15:21:52 on [wordpress](https://skyfromme.wordpress.com/2012/06/08/ubuntu-libreoffice-development-kickstart-guide/).

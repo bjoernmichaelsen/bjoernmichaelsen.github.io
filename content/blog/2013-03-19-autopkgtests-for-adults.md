@@ -60,4 +60,4 @@ This will connect to the LibreOffice you started in the second-to-last step (whi
 
 <pre style="text-align:left;">./bin/prepare-testbed -r raring amd64 -S12GB</pre>
 seems to solve the issue. The "df -h" at the start of the test reports some 3GB of free space (with 2.6GB being needed still to create a rw-copy of the source tree after that point). So 12GB is likely the size the images on Jenkins roughly currently need (plus maybe another 1GB of wiggle room).
-Originally published on 2013-03-19 16:54:22 at https://skyfromme.wordpress.com/2013/03/19/autopkgtests-for-adults/.
+Originally published on 2013-03-19 16:54:22 on [wordpress](https://skyfromme.wordpress.com/2013/03/19/autopkgtests-for-adults/).

@@ -37,4 +37,4 @@ The Casio is clearly the weakest computer of those, but still is more powerful t
 	<li>the trusty old Sun Ultra 24, now replaced by Big Bertha (so decommissioned, and already sold)</li>
 </ul>
 Not in picture: A few routers and two Pandaboards. I guess I used up all my showboating credits for a few years now and promise to keep silent for a while on this.
-Originally published on 2012-11-12 19:08:52 at https://skyfromme.wordpress.com/2012/11/12/dicke-bertha-online/.
+Originally published on 2012-11-12 19:08:52 on [wordpress](https://skyfromme.wordpress.com/2012/11/12/dicke-bertha-online/).

@@ -124,4 +124,4 @@ My tentative conclusions are:
 	<li>Buying a wattmeter is a good decision, when you run nontrivial amounts of hardware.</li>
 </ul>
 Addendum: The 2.5 Watts for Bertha when off may seem bad -- but its not at all, if you consider it is running a <a href="https://en.wikipedia.org/wiki/Out-of-band_management">lights-out management</a> on that.
-Originally published on 2013-08-20 17:06:18 at https://skyfromme.wordpress.com/2013/08/20/powerplay/.
+Originally published on 2013-08-20 17:06:18 on [wordpress](https://skyfromme.wordpress.com/2013/08/20/powerplay/).

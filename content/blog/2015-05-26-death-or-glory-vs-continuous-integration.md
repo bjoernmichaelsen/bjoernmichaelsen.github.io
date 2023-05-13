@@ -35,4 +35,4 @@ This rebases your branch on master (even if its already up to date) and builds a
 Note: gerrit will close the squashed branch change if you push the branch to master: The squashed commit message ends with the Change-Id of the final commit of the branch. So once that commit is pushed, the gerrit closes the review for the squashed change.
 
 Another note: If the above git commands are too verbose for you (they are for me), consider using <a href="https://github.com/thoughtbot/gitsh">gitsh</a> and <a href="http://githowto.com/aliases">aliases</a>. Combined they help quite a lot in reducing redundant typing when working with git.
-Originally published on 2015-05-26 08:39:20 at https://skyfromme.wordpress.com/2015/05/26/death-or-glory-vs-continuous-integration/.
+Originally published on 2015-05-26 08:39:20 on [wordpress](https://skyfromme.wordpress.com/2015/05/26/death-or-glory-vs-continuous-integration/).

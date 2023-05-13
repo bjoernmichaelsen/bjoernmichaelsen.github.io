@@ -9,4 +9,4 @@ the package is installing
 =========================
 
 the package is installing
-Originally published on 2012-10-28 23:43:32 at https://skyfromme.wordpress.com/2012/10/29/libreoffice-quantal-features-unity-integration-packagekit-and-templates/packageinstalling/.
+Originally published on 2012-10-28 23:43:32 on [wordpress](https://skyfromme.wordpress.com/2012/10/29/libreoffice-quantal-features-unity-integration-packagekit-and-templates/packageinstalling/).

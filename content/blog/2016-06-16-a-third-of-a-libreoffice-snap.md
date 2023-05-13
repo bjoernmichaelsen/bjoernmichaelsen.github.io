@@ -23,4 +23,4 @@ As many people are just curious about running LibreOffice 5.2 without wanting to
 The package file including full debug symbols -- in case you are interested in that -- has been renamed to <a href="http://people.canonical.com/~bjoern/snappy/libreoffice-debug_5.2.0.0.beta2_amd64.snap">libreoffice-debug</a>.
 
 <small>(Note that if you downloaded the file while I moved files around, you might need to redo your download.)</small>
-Originally published on 2016-06-16 10:42:07 at https://skyfromme.wordpress.com/2016/06/16/a-third-of-a-libreoffice-snap/.
+Originally published on 2016-06-16 10:42:07 on [wordpress](https://skyfromme.wordpress.com/2016/06/16/a-third-of-a-libreoffice-snap/).

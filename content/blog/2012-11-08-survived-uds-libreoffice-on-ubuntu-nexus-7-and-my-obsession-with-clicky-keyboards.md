@@ -32,4 +32,4 @@ I also learned that <a href="https://errors.ubuntu.com/">https://errors.ubuntu.c
 Finally: <strong>Valve/Steam on Ubuntu -- awesome!</strong>
 
 [caption id="" align="aligncenter" width="864"]<img title="Steam/Valve on Ubuntu" alt="" src="https://lh3.googleusercontent.com/-svMSo1fjdBY/UI6G0skuHnI/AAAAAAAAAg4/JhJE_69PqXA/s864/20121029_141544.jpg" height="648" width="864" /> Steam/Valve at UDS[/caption]
-Originally published on 2012-11-08 10:42:51 at https://skyfromme.wordpress.com/2012/11/08/survived-uds-libreoffice-on-ubuntu-nexus-7-and-my-obsession-with-clicky-keyboards/.
+Originally published on 2012-11-08 10:42:51 on [wordpress](https://skyfromme.wordpress.com/2012/11/08/survived-uds-libreoffice-on-ubuntu-nexus-7-and-my-obsession-with-clicky-keyboards/).

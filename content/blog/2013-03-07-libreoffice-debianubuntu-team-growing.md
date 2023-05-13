@@ -20,4 +20,4 @@ I would like to take this opportunity to thank everyone who made this possible:
 	<li><a href="https://launchpad.net/~bdrung">Benjamin Drung</a> for fixes, tweaks and contributions to the LibreOffice packaging both at Debian and Ubuntu</li>
 </ul>
 Will there be backports of 4.0.1 to older series? Well, an indiscreet look in <a href="https://launchpad.net/~ricotz/+archive/ppa/+builds?build_state=building">Ricos PPA</a>, suggests that it wont take long for them to end up in the <a href="https://launchpad.net/~libreoffice/+archive/ppa">LibreOffice ppa</a>. Steadily, the LibreOffice team is growing -- its exciting to see so many volunteers contribute to this!
-Originally published on 2013-03-07 12:42:16 at https://skyfromme.wordpress.com/2013/03/07/libreoffice-debianubuntu-team-growing/.
+Originally published on 2013-03-07 12:42:16 on [wordpress](https://skyfromme.wordpress.com/2013/03/07/libreoffice-debianubuntu-team-growing/).
