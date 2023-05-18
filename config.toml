@@ -10,9 +10,9 @@ build_search_index = true
 theme = "zola-clean-blog"
 
 taxonomies = [
-    {name = "categories", rss = true, paginate_by=5},
-    {name = "tags", rss = true, paginate_by=5},
-    {name = "originally-published-on", rss = true},
+    {name = "categories", feed = true, paginate_by=20},
+    {name = "tags", feed = true, paginate_by=20},
+    {name = "originally-published-on", feed = true},
 ]
 
 [markdown]
