@@ -21,6 +21,6 @@ About
 posts on:
 * [LibreOffice](/categories/libreoffice/index.html)
 * [Ubuntu](/categories/ubuntu/index.html)
-* [C](/categories/c/index.html) [C++](/categories/c-11/index.html) and [programming](/categories/programming/index.html)
+* [C](/categories/c/index.html), [C++](/categories/c-11/index.html) and [programming](/categories/programming/index.html)
 
 <p style="text-align:left;">All views expressed on this blog are those of Bjoern Michaelsen and do not necessarily reflect the views of any other entity, including current and former employers.</p>

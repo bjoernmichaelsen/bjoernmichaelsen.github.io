@@ -1,7 +1,7 @@
 +++
-title = "list of blog posts"
+title = "homepage"
 sort_by = "date"
-paginate_by = 5
-template = "index.html"
+paginate_by = 1
+template = "redirect_to_blog.html"
 page_template = "page.html"
 +++
