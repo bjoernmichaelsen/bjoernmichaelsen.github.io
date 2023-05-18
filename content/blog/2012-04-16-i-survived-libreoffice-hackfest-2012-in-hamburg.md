@@ -14,7 +14,7 @@ train/returning from some downtown sightseeing. We also picked up some old
 StarDivision/Sun Developer hanging around by accident just there -- since all
 hackers are curious, the invitation to join us on the next day too was gladly
 accepted.  Saturday started with a good breakfast and distributing the cool
-shirts that [Nerdshirt.de](http://www.nerdshirt.de/) kindly sponsored us (Saturday also started with
+shirts that Nerdshirt.de kindly sponsored us (Saturday also started with
 Thorsten kindly inviting me to speed up my steps to the event location for the
 amusement of the hackers already there -- over megaphone):
 
@@ -25,7 +25,7 @@ made aware of them -- and off we went for a session of full-throttle hackery. I
 practiced my skills as a jack of all trades, master of none and jumped from
 topic to topic:
 
-* discussed bibisect/QA with Florian (remotely attending via Skype), [Rainer](http://rrbd.wordpress.com/2012/04/14/hackfest-hamburg-2012/), Friedrich and Rob, [resulting in this awesome screencast](http://flosmind.wordpress.com/2012/04/16/bisecting-libreoffice-youtube-now-with-subtitles/)
+* discussed bibisect/QA with Florian (remotely attending via Skype), [Rainer](https://web.archive.org/web/20120428022303/http://rrbd.wordpress.com/2012/04/14/hackfest-hamburg-2012/), Friedrich and Rob, [resulting in this awesome screencast](http://flosmind.wordpress.com/2012/04/16/bisecting-libreoffice-youtube-now-with-subtitles/)
 * Simplifying login and authentication on TDF services with Mike and the infrastructure guys (OpenID should be the way to go)
 * some cross compile gbuild tweaking with Eilidh
 * how branching works in git with Christina
@@ -51,7 +51,7 @@ remaining hackers into the sunlight with promises of fortune and fame:
 as you can see some of the sponsored black shirts with the hacker glider are
 already worn right there.  As things got calmer, because more and more hackers
 returned home, I managed to focus myself on one topic and implemented an small
-idea proposed to me by Tor: [Per Library debug builds](http://nabble.documentfoundation.org/per-library-debug-builds-now-possible-via-configure-td3914016.html).
+idea proposed to me by Tor: [Per Library debug builds](https://web.archive.org/web/20120423051507/http://nabble.documentfoundation.org/per-library-debug-builds-now-possible-via-configure-td3914016.html).
 
 (for more, see also: [Thorstens post and all the others linked in there](http://blog.thebehrens.net/2012/04/16/libreoffice-hamburg-hackfest-2012/))
 

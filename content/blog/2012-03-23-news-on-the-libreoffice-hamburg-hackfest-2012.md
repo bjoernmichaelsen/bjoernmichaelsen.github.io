@@ -27,7 +27,7 @@ As a proud local, I also decided to guide some sightseeing on Friday afternoon
 for people interested, so if you arrive early you might get to see some of the
 beautiful corners of Hamburg.
 
-[Nerdshirt.de](http://www.nerdshirt.de/index.php) kindly sponsors us ten
+Nerdshirt.de kindly sponsors us ten
 T-shirts for the participants. **We just decided to give those to the first ten
 people, who added themselves to the [participant
 list](https://wiki.documentfoundation.org/index.php?title=Hackfest/Hamburg2012#Participants)

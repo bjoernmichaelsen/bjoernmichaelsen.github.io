@@ -20,7 +20,7 @@ Here is a short update on the state of LibreOffice Packaging on Ubuntu (and Debi
 
 * [Ubuntu 12.04 LTS (Precise)](https://launchpad.net/ubuntu/precise) will ship with at least [LibreOffice 3.5.2-2ubuntu1](https://launchpad.net/ubuntu/precise/+source/libreoffice)
 * Thanks to the great work of [ricotz](https://launchpad.net/~ricotz), LibreOffice 3.5.2 is also available for [Ubuntu 11.10 (Oneiric)](https://launchpad.net/~libreoffice/+archive/ppa/+sourcepub/2375289/+listing-archive-extra) and [Ubuntu 10.04 LTS (Lucid)](https://launchpad.net/~libreoffice/+archive/ppa/+sourcepub/2375288/+listing-archive-extra) from the [LibreOffice PPA](https://launchpad.net/~libreoffice/+archive/ppa).
-* There is a new [PPA for the LibreOffice 3.4 series](https://launchpad.net/~libreoffice/+archive/libreoffice-3-4). It contains the [latest minor release (3.4.6)](https://launchpad.net/~libreoffice/+archive/libreoffice-3-4/+sourcepub/2378562/+listing-archive-extra) of LibreOffice 3.4. From now on there will be a PPA for each LibreOffice major series (3.4, 3.5, 3.6) allowing users to update to the latest minor release of that series, without having to wait for the thorough process of [Stable Release Update](https://wiki.ubuntu.com/StableReleaseUpdates) verification. There will never be a surprise update to the next major release in these PPAs.
+* There is a new [PPA for the LibreOffice 3.4 series](https://web.archive.org/web/20130529050642/https://launchpad.net/~libreoffice/+archive/libreoffice-3-4). It contains the [latest minor release (3.4.6)](https://launchpad.net/~libreoffice/+archive/libreoffice-3-4/+sourcepub/2378562/+listing-archive-extra) of LibreOffice 3.4. From now on there will be a PPA for each LibreOffice major series (3.4, 3.5, 3.6) allowing users to update to the latest minor release of that series, without having to wait for the thorough process of [Stable Release Update](https://wiki.ubuntu.com/StableReleaseUpdates) verification. There will never be a surprise update to the next major release in these PPAs.
 
 During the 3.4/3.5 upstream releases, Debian (and thus Ubuntu) switched from
 building with the old [libreoffice-build wrapper](http://cgit.freedesktop.org/libreoffice/build) to a clean direct build. All
@@ -34,7 +34,7 @@ Tzschichholz, Lubok Lunak.
 
 These changes have made Ubuntu and Debian come a lot closer to upstream -- a
 lot of patches have been either removed as obsolete, upstreamed to LibreOffice
-or included as vendor-patches. With [only 41 Patches in debian/patches](http://anonscm.debian.org/gitweb/?p=pkg-openoffice/libreoffice.git;a=tree;f=patches;h=549a0141f723ef3c3b285ab97561b3e3e7961e64;hb=83cdc913d0d3c5d93ede9b0b41995afc908d729c) we are a
+or included as vendor-patches. With [only 41 Patches in debian/patches](https://salsa.debian.org/libreoffice-team/libreoffice/libreoffice/-/tree/83cdc913d0d3c5d93ede9b0b41995afc908d729c/patches) we are a
 lot closer to upstream now, which is very good as it removes the need to
 doublecheck bugs to be Debian/Ubuntu-specific in the most cases. Of the five
 patches that are only in Ubuntu, but not in Debian:

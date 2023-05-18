@@ -22,9 +22,9 @@ Returning from my vacation -- during which I forced myself to a strict and compl
 
 And then there was FOSDEM 2012, which is really a culture shock, when you arrive there directly from the dreamy snowy mountains of the Massif de la Lauziere <sup>(1)</sup>.
 
-LibreOffice had both a [Dev-Room](http://fosdem.org/2012/schedule/track/libreoffice_devroom) and a booth (and great crew of vocational booth boys and babes, whose regular occupation is coding and contributing to the best free office suite ever).
+LibreOffice had both a [Dev-Room](https://web.archive.org/web/20120323035150/https://fosdem.org/2012/schedule/track/libreoffice_devroom) and a booth (and great crew of vocational booth boys and babes, whose regular occupation is coding and contributing to the best free office suite ever).
 
-The [Dev-Room was packed with 18 talks in one day](http://fosdem.org/2012/schedule/room/h1309), which I had the pleasure to close with my paced<sup>(2)</sup> "[10 reasons to contribute to LibreOffice today](https://wiki.documentfoundation.org/images/8/8e/TenReasonsContribute.odp)" while in parallel there was the additional [LibreOffice keynote by Michael Meeks showing off some of the niftiness of LibreOffice on new form factors](http://people.gnome.org/~michael/blog/2012-02-04.html).
+The [Dev-Room was packed with 18 talks in one day](https://web.archive.org/web/20120317123813/http://fosdem.org/2012/schedule/room/h1309), which I had the pleasure to close with my paced<sup>(2)</sup> "[10 reasons to contribute to LibreOffice today](https://wiki.documentfoundation.org/images/8/8e/TenReasonsContribute.odp)" while in parallel there was the additional [LibreOffice keynote by Michael Meeks showing off some of the niftiness of LibreOffice on new form factors](http://people.gnome.org/~michael/blog/2012-02-04.html).
 
 Next stop: LibreOffice HackFest on 14th April 2012 in Hamburg! Mark your calendars, ladies and gentlemen!
 
