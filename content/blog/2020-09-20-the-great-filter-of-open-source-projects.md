@@ -41,7 +41,7 @@ The great filter of open source projects
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":1491,"sizeSlug":"large"} -->
-<figure class="wp-block-image size-large"><img src="https://skyfromme.files.wordpress.com/2020/09/4fnakd.jpg?w=888" alt="" class="wp-image-1491" /></figure>
+<img style="display:block; margin-left:auto; margin-right:auto; width:90%" src="/img/wp/2020/09/4fnakd.jpg" alt="" />
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
