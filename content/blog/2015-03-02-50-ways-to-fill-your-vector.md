@@ -225,7 +225,7 @@ Time for 1280000000 iterations on a Intel i5-4200U@1.6GHz (<code>-march=core-avx
 </tr>
 </tbody>
 </table>
-<a href="https://skyfromme.files.wordpress.com/2015/03/noinline.png"><img class="aligncenter size-large wp-image-979" src="https://skyfromme.files.wordpress.com/2015/03/noinline.png?w=660" alt="creating a three element vector without inlined constructors" width="660" height="450" /></a>
+<a href="/img/wp/2015/03/noinline.png"><img class="aligncenter size-large wp-image-979" src="/img/wp/2015/03/noinline.png?w=660" alt="creating a three element vector without inlined constructors" width="660" height="450" /></a>
 And, for comparison, following are the results, if one allows the constructors to be inlined.
 Time for 1280000000 iterations on a Intel i5-4200U@1.6GHz (<code>-march=core-avx2</code>) compiled with gcc 4.8.3 with inline constructors:
 <table>
@@ -295,7 +295,7 @@ Time for 1280000000 iterations on a Intel i5-4200U@1.6GHz (<code>-march=core-avx
 </tr>
 </tbody>
 </table>
-<a href="https://skyfromme.files.wordpress.com/2015/03/inlinefixed.png"><img src="https://skyfromme.files.wordpress.com/2015/03/inlinefixed.png?w=660" alt="creating a three element vector without inlined constructors" width="660" height="450" class="aligncenter size-large wp-image-1001" /></a>
+<a href="/img/wp/2015/03/inlinefixed.png"><img src="/img/wp/2015/03/inlinefixed.png?w=660" alt="creating a three element vector without inlined constructors" width="660" height="450" class="aligncenter size-large wp-image-1001" /></a>
 Some observations on these measurements:
 <ul>
 	<li><code>-march=...</code> is at best neutral: The measured times do not change much in general, they only even slightly improve performance in five out of 16 cases, and the two cases with the most significant change in performance (over 3%) are actually hurting the performance. So for the rest of this post, <code>-march=...</code> will be ignored. Sorry gentooers. ;)</li>

@@ -144,7 +144,7 @@ So indeed most of the implementations generate the same assembler code. However,
 </tr>
 </tbody>
 </table>
-[caption id="attachment_1049" align="aligncenter" width="519"]<a href="https://skyfromme.files.wordpress.com/2015/03/noinline1.png"><img class="size-large wp-image-1049" src="https://skyfromme.files.wordpress.com/2015/03/noinline1.png?w=519" alt="no inline measurements" width="519" height="405" /></a> no inline measurements[/caption]
+[caption id="attachment_1049" align="aligncenter" width="519"]<a href="/img/wp/2015/03/noinline1.png"><img class="size-large wp-image-1049" src="/img/wp/2015/03/noinline1.png?w=519" alt="no inline measurements" width="519" height="405" /></a> no inline measurements[/caption]
 
 And with inlining:
 <table>
@@ -214,7 +214,7 @@ And with inlining:
 </tr>
 </tbody>
 </table>
-[caption id="attachment_1050" align="aligncenter" width="519"]<a href="https://skyfromme.files.wordpress.com/2015/03/inline1.png"><img class="size-large wp-image-1050" src="https://skyfromme.files.wordpress.com/2015/03/inline1.png?w=519" alt="inline measurements" width="519" height="405" /></a> inline measurements[/caption]
+[caption id="attachment_1050" align="aligncenter" width="519"]<a href="/img/wp/2015/03/inline1.png"><img class="size-large wp-image-1050" src="/img/wp/2015/03/inline1.png?w=519" alt="inline measurements" width="519" height="405" /></a> inline measurements[/caption]
 
 The standard deviation for all the above values is less than 0.2 seconds. That is ... interesting: For example, on <code>-O2</code> without inlining, B1 and B2 generate the same assembler output, but execute with a very significant difference in hardware (5.2 s difference, or more than 25 standard deviations). So how have logic and proportion fallen sloppy dead here? If the same code is executed -- admittedly from two different locations in the binary -- how can that create such a significant difference in walltime performance, while not being visible at all on callgrind? A wild guess, which I have not confirmed yet, is cache locality: When not inlining constructors, those might be in CPU cache from one copy of the code in the binary, but not for the other. And by the way, it might also hint at the reasons for the <code>-march=</code> flag (which creates bigger code) seeming so uneffective. And it might explain, why performance is rather consistent when using inline constructors. If so, the impact of this is certainly interesting. It also suggest that allowing inlining of hotspots, like <a href="https://skyfromme.wordpress.com/2015/01/15/swnodeindex-ludicious-speed/">recently done with the low-level <code>sw::Ring</code> class</a>, produces much more performance improvement on real hardware than the meager results measured with callgrind. And it reinforces the warning made in that post about not falling in the trap of mistaking the map for the territory: callgrind is not a <a href="https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation">"map in the scale of a mile to the mile"</a>.
 
