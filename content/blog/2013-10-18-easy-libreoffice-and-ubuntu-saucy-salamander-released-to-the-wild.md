@@ -24,4 +24,5 @@ This little chart shows <a href="https://wiki.documentfoundation.org/Easy_Hacks"
 <sup>(*)</sup> I didnt bother to check for the exact number, because checking for duplicates in email addresses is tiresome.
 
 Note: An earlier version of this post talked about 22.000 commits -- that was an error on my part fiddling with the scripting late at night.
+
 Originally published on 2013-10-18 01:09:15 on [wordpress](https://skyfromme.wordpress.com/2013/10/18/easy-libreoffice-and-ubuntu-saucy-salamander-released-to-the-wild/).

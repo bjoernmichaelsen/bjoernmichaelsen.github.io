@@ -21,4 +21,5 @@ For the next LibreOffice release, the template installer has to be adopted to th
 This series of screenshots shows all of this in action:
 
 <dl id="attachment_175" class="wp-caption aligncenter" style="width:529px;"><dt class="wp-caption-dt">[slideshow]</dt><dd class="wp-caption-dd">Installing the template pack from LibreOffice</dd></dl>
+
 Originally published on 2012-10-29 00:12:15 on [wordpress](https://skyfromme.wordpress.com/2012/10/29/libreoffice-quantal-features-unity-integration-packagekit-and-templates/).

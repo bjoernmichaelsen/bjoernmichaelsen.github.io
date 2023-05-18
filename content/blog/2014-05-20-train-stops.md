@@ -408,4 +408,5 @@ So, Ubuntu qualifies as a "bigger deployment" and I have to take care of LibreOf
 So, you are invited to run or test builds from these PPAs -- or download the bibisect repositories -- to keep LibreOffice releases coming in the steady and stable fashion they do. Finally, there is a bug hunting session for LibreOffice this week and as said above, no matter if you are running a huge deployment or installing on your own, you are helping LibreOffice -- and yourself, as a user of LibreOffice -- a lot by testing the prereleases:
 
 <a href="https://wiki.documentfoundation.org/BugHunting_Session_4.3.0"><img class="aligncenter size-full wp-image-846" src="/static/img/wp/2014/05/bughuntban.png" alt="" width="378" height="113" /></a>
+
 Originally published on 2014-05-20 19:26:10 on [wordpress](https://skyfromme.wordpress.com/2014/05/20/train-stops/).

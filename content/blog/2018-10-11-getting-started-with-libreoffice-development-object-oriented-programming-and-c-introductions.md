@@ -48,4 +48,5 @@ Finding a good and modern starting point for C++ development was by far the hard
 &nbsp;
 
 P.S. As a sidenote and additional motivation: All those books -- but especially "Head First: Design Patterns" should provide the context to understand many of the in-jokes found on the oldest wiki ever, the <a href="http://wiki.c2.com/?WelcomeVisitors">C2 WikiWikiWeb</a> which can be an quite entertaining read once in a while.
+
 Originally published on 2018-10-11 14:55:55 on [wordpress](https://skyfromme.wordpress.com/2018/10/11/getting-started-with-libreoffice-development-object-oriented-programming-and-c-introductions/).

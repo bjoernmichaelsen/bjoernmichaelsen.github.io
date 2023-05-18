@@ -26,4 +26,5 @@ It is intended to ship this extension pre-bundled with all LibreOffice releases 
 <a title="tuesday.oxt" href="https://wiki.documentfoundation.org/images/1/14/Tuesday.oxt" rel="attachment wp-att-478"><img class="aligncenter size-full wp-image-478" alt="" src="/static/img/wp/2013/03/tuesdaydownload.png" width="440" height="80" /></a>
 
 <strong>It has to be noted that the extension is written purely in Python and is completely self-contained: it can either be treated as the oxt to be installed or as a zip file containing the source code: unpack it with the archive program of your choice, modify it to your hearts content and run the script called 'build' that you find in there. This will recreate a new (modified) extension.</strong>
+
 Originally published on 2013-04-01 00:01:17 on [wordpress](https://skyfromme.wordpress.com/2013/04/01/libreoffice-prints-on-tuesdays-only/).

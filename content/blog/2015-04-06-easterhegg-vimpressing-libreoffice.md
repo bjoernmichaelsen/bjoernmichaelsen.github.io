@@ -16,4 +16,5 @@ Easterhegg: Vimpressing LibreOffice!
 <p style="text-align:left;">And indeed: <a href="https://github.com/bjoernmichaelsen/odpdown/commit/d2947c01e8a2f91bee8dd03112c72c8ac2a62c05">That is not hard to do</a>. Here is a <a href="https://youtu.be/_wqsdsgkZ1w">very raw video</a> showing how to run presentations right out of vim:</p>
 <p style="text-align:left;">[embed]https://youtu.be/_wqsdsgkZ1w[/embed]</p>
 <p style="text-align:left;">Now, this is a quick hack, Linux only, requires you to have Python3 UNO-bindings installed etc. If you want to play with it: Clone <a href="https://github.com/bjoernmichaelsen/odpdown">the repo from github</a> and get started. Kudos go out to Thorsten for the original odpdown on which this is piggybagging ("das ist alles nur geklaut"). So: Have fun with this -- I will have to install vibreoffice now.</p>
+
 Originally published on 2015-04-06 07:35:28 on [wordpress](https://skyfromme.wordpress.com/2015/04/06/easterhegg-vimpressing-libreoffice/).

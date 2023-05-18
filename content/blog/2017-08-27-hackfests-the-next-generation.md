@@ -106,4 +106,5 @@ If you are interested in this effort, feel free to:
 	<li><strong>take part in the conference call for organizing it</strong></li>
 </ul>
 <strong><em>UPDATE: <a href="http://nabble.documentfoundation.org/Hackfests-the-next-generation-A-Call-To-Action-tp4221150p4221618.html">Time and date for the call are set</a>: Sunday 2017-09-03 14:30 UTC, <a href="https://wiki.documentfoundation.org/Website/Talkyoo">Talkyoo room 21 24 86 #</a>. Please join!</em></strong>
+
 Originally published on 2017-08-27 11:22:20 on [wordpress](https://skyfromme.wordpress.com/2017/08/27/hackfests-the-next-generation/).

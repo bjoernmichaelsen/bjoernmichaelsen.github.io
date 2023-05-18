@@ -309,4 +309,5 @@ One common mantra in applications development is "trust the compiler to optimize
 And hey, if you want to run the tests above on other platforms or compilers, I would be interested in results!
 
 Note: I did these runs for each scenario only once, thus no standard deviation is given. In general, they seemed to be rather stable, but this being wallclock measurements, one or the other might be outliers. caveat emptor.
+
 Originally published on 2015-03-02 22:47:07 on [wordpress](https://skyfromme.wordpress.com/2015/03/02/50-ways-to-fill-your-vector/).

@@ -19,4 +19,5 @@ One nitpick that we should probably fix is <a href="https://bugs.launchpad.net/u
 <img class="aligncenter" title="Green and Orange" src="https://launchpadlibrarian.net/110384495/Captura%20de%20pantalla%20de%202012-07-18%2008%3A32%3A41.png" alt="" width="544" height="361" />
 
 There are multiple possible solutions to this, the most simple one: removing the ubuntufied orange progress bar and making it white like upstream, but I cant help but notice that some of the other proposals like 'clean' although not winning the <a href="//plus.google.com/102673546895803839652/posts/FRtrAazgb6W">vote on g+</a> would not be that problematic. Your input on this topic is welcome, but having installed Quantal (and testing LibreOffice) is a prerequisite. ;)
+
 Originally published on 2012-07-23 10:33:33 on [wordpress](https://skyfromme.wordpress.com/2012/07/23/early-releases-continuous-integration-warm-bodies-and-cool-machines/).

@@ -33,4 +33,5 @@ pictures. This years "state of the project" presentation showed again that the m
 So, like <a href="https://lwn.net/Articles/699333/">the branches of the different descendants of OpenOffice.org</a>, the
 contributors and communities did <em>come together</em> in Brno to push
 LibreOffice forward as one!
+
 Originally published on 2016-09-28 10:58:37 on [wordpress](https://skyfromme.wordpress.com/2016/09/28/merging-communities/).

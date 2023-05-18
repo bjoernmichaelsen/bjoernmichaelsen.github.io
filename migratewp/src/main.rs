@@ -47,7 +47,7 @@ where W: Write {
     writeln!(w, "{title_underline}");
     writeln!(w, "");
     writeln!(w, "{content}");
-    writeln!(w, "Originally published on {post_date} on [wordpress]({link}).");
+    writeln!(w, "\nOriginally published on {post_date} on [wordpress]({link}).");
 }
 
 fn parse_wp<R>(r: R, old_link_prefix: &str, new_link_prefix: &str) -> HashMap<String, String>

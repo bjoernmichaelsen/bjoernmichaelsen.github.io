@@ -30,4 +30,5 @@ Excited to see you all in Milan next week!
 
 <sup>(*)</sup> changed from 15 minutes earlier as there has been more demand for 5 minutes freeform than for 15 minutes sessions.
 </sup>
+
 Originally published on 2013-09-17 17:24:56 on [wordpress](https://skyfromme.wordpress.com/2013/09/17/libreoffice-lightning/).

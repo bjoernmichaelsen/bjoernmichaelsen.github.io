@@ -24,4 +24,5 @@ To the freshly volunteered canaries: I will send a you a mail on how to proceed 
 
 Finally, I have to highlight this awesome video by Cloph, which played right after the welcome talk. It shows how awesome, diverse and buzzing the LibreOffice community has become -- <strong>One year of activity on the LibreOffice core repository</strong>:
 [youtube http://www.youtube.com/watch?v=C3To0wrawYg&amp;w=560&amp;h=315]
+
 Originally published on 2012-10-24 20:46:27 on [wordpress](https://skyfromme.wordpress.com/2012/10/24/speakerdeckd-myself-also-libreoffice-conference-2012/).

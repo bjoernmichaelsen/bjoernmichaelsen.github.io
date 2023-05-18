@@ -29,4 +29,5 @@ This is 6Fwd – a beautiful meeting room at <a href="https://freiheit.com/en/">
 <strong><a href="https://wiki.documentfoundation.org/Hackfest/Hamburg2018">Details about the LibreOffice Hackfest Hamburg 2018 are kept on the TDF wiki page</a></strong> and will be continuously updated. If you are interested in joining the event please start adding your name there (especially if you are interested in TDF sponsoring travel and accomodation for you).
 
 <small>(If you are still unsure about joining the event, you can have a look at the <a href="https://wiki.documentfoundation.org/Special:PrefixIndex/Hackfest/">wiki pages of previous events</a> to get an idea. But really: the best way to learn about the project is going to a Hackfest, so dont miss this opportunity!)</small>
+
 Originally published on 2018-02-22 09:00:02 on [wordpress](https://skyfromme.wordpress.com/2018/02/22/invitation-to-the-libreoffice-hackfest-hamburg-2018-on-april-7th-and-8th/).

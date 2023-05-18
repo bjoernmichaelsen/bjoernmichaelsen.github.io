@@ -33,4 +33,5 @@ Finally, this tasty pie chart shows that the red to yellow upstream parts of the
 This "last mile" of getting LibreOffice on Ubuntu and Debian is often overlooked. I still think it is quite an important (although mostly invisible) job. An explicit "Thank You!" to Rene for all his hard and continuous work on this.
 
 <sup>(*)</sup> Yes, LibreOffice has a rule to generate its own control file. Manually maintaining that would be truely painful.
+
 Originally published on 2012-08-23 19:37:49 on [wordpress](https://skyfromme.wordpress.com/2012/08/23/libreoffice-rules/).
