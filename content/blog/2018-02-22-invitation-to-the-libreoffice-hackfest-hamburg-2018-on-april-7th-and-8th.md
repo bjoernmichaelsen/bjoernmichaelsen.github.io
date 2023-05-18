@@ -22,7 +22,7 @@ Note that as <a href="https://wiki.documentfoundation.org/Hackfest/Hamburg2018#T
 
 So – where will we meet? Here:
 
-<a href="https://skyfromme.files.wordpress.com/2018/02/6fwd.jpg" target="_blank" rel="noopener"><img class="alignnone size-full wp-image-1438" src="https://skyfromme.files.wordpress.com/2018/02/6fwd.jpg" alt="6fwd" width="3104" height="608" /></a>
+<a href="/img/wp/2018/02/6fwd.jpg" target="_blank" rel="noopener"><img class="alignnone size-full wp-image-1438" src="/img/wp/2018/02/6fwd.jpg" alt="6fwd" width="3104" height="608" /></a>
 
 This is 6Fwd – a beautiful meeting room at <a href="https://freiheit.com/en/">freiheit.com technologies</a>, who are generously hosting us for this event. I am very excited about us being guests at this location and would like to thank freiheit.com for their sponsorship!
 

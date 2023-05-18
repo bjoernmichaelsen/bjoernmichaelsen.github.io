@@ -27,7 +27,11 @@ fn article_filename(post_date: &str, post_name: &str) -> String {
 }
 
 fn fix_media_links(content: &str, old_link_prefix: &str, new_link_prefix: &str) -> String {
-    content.replace(old_link_prefix, new_link_prefix)
+    let http = "http://".to_owned() + old_link_prefix;
+    let https = "https://".to_owned() + old_link_prefix;
+    content
+        .replace(http.as_str(), new_link_prefix)
+        .replace(https.as_str(), new_link_prefix)
 }
 
 fn write_article<W>(mut w: &mut W, post_date: &str, title: &str, link: &str, categories: &str, content: &str)
@@ -123,7 +127,7 @@ where R: Read  {
 }
 fn main() {
     let f = File::open("/home/bjoern/checkouts/mirror-skyfromme/youcan039ttaketheskyfromme.wordpress.2023-04-25.000.xml").expect("file should be here.");
-    let articles = parse_wp(f, "http://skyfromme.files.wordpress.com/", "/img/wp/");
+    let articles = parse_wp(f, "skyfromme.files.wordpress.com/", "/img/wp/");
     for (filename, content) in &articles {
             let fullpath = format!("/home/bjoern/checkouts/bjoernmichaelsen.github.io/content/blog/{filename}");
             let mut file = File::create(fullpath).expect("we should be able to create these files");
@@ -152,15 +156,15 @@ mod tests {
     #[test]
     fn test_parse_wp() {
         let f = File::open("/home/bjoern/checkouts/mirror-skyfromme/youcan039ttaketheskyfromme.wordpress.2023-04-25.000.xml").expect("file should be here.");
-        let result = parse_wp(f, "http://skyfromme.files.wordpress.com/", "/img/wp/");
+        let result = parse_wp(f, "skyfromme.files.wordpress.com/", "/img/wp/");
         assert_eq!(result.len(), 112);
         result.into_keys().for_each(|x| println!("{x}"));
     }
 
     #[test]
     fn test_fix_media_links() {
-        let content = "<em><img class=\"aligncenter wp-image-318\" src=\"http://skyfromme.files.wordpress.com/2012/07/photo.jpg\" alt=\"photo\" width=\"250\" height=\"250\" /></em><p style=\"text-align:center;font-size:x-small;\">photo: (c) 2015 by Bjoern Michaelsen, Creative Commons Attribution-ShareAlike 3.0</p>";
-        let result = fix_media_links(content, "http://skyfromme.files.wordpress.com/", "/img/wp/");
-        assert_eq!(result, "<em><img class=\"aligncenter wp-image-318\" src=\"/img/wp/2012/07/photo.jpg\" alt=\"photo\" width=\"250\" height=\"250\" /></em><p style=\"text-align:center;font-size:x-small;\">photo: (c) 2015 by Bjoern Michaelsen, Creative Commons Attribution-ShareAlike 3.0</p>")
+        let content = "<em><img class=\"aligncenter wp-image-318\" src=\"http://skyfromme.files.wordpress.com/2012/07/photo.jpg\" alt=\"photo\" width=\"250\" height=\"250\" /><img class=\"aligncenter wp-image-318\" src=\"https://skyfromme.files.wordpress.com/2012/07/photo.jpg\" alt=\"photo\" width=\"250\" height=\"250\" /></em><p style=\"text-align:center;font-size:x-small;\">photo: (c) 2015 by Bjoern Michaelsen, Creative Commons Attribution-ShareAlike 3.0</p>";
+        let result = fix_media_links(content, "skyfromme.files.wordpress.com/", "/img/wp/");
+        assert_eq!(result, "<em><img class=\"aligncenter wp-image-318\" src=\"/img/wp/2012/07/photo.jpg\" alt=\"photo\" width=\"250\" height=\"250\" /><img class=\"aligncenter wp-image-318\" src=\"/img/wp/2012/07/photo.jpg\" alt=\"photo\" width=\"250\" height=\"250\" /></em><p style=\"text-align:center;font-size:x-small;\">photo: (c) 2015 by Bjoern Michaelsen, Creative Commons Attribution-ShareAlike 3.0</p>")
     }
 }

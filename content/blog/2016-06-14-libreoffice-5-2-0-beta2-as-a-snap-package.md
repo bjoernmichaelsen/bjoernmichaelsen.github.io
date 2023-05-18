@@ -14,7 +14,7 @@ LibreOffice 5.2.0 beta2 as a snap package
 <p style="text-align:left;">So -- here is what I have been up to:</p>
 
 
-[caption id="attachment_1187" align="aligncenter" width="739"]<a href="https://skyfromme.files.wordpress.com/2016/06/libreoffice-5-2snap.png"><img class="size-large wp-image-1187" src="https://skyfromme.files.wordpress.com/2016/06/libreoffice-5-2snap.png?w=739" alt="LibreOffice 5.2.0 beta2 installed as a snap on Ubuntu 16.04" width="739" height="416" /></a> LibreOffice 5.2.0 beta2 installed as a snap on Ubuntu 16.04[/caption]
+[caption id="attachment_1187" align="aligncenter" width="739"]<a href="/img/wp/2016/06/libreoffice-5-2snap.png"><img class="size-large wp-image-1187" src="/img/wp/2016/06/libreoffice-5-2snap.png?w=739" alt="LibreOffice 5.2.0 beta2 installed as a snap on Ubuntu 16.04" width="739" height="416" /></a> LibreOffice 5.2.0 beta2 installed as a snap on Ubuntu 16.04[/caption]
 
 The upcoming LibreOffice 5.2 packaged as a nice new <a href="https://developer.ubuntu.com/en/snappy/">snap package</a>. This:
 <ul>
