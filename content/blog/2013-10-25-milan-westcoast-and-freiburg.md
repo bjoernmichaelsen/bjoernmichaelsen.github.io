@@ -19,11 +19,11 @@ Almost, as e.g. while I was able and eager to send the slides for the lightning 
 
 I didnt bring my own camera and thus missed making pictures during e.g. the lively QA roundtable, but Rob made sure that we get at least some photo on the last day (when many were already on the way home):
 
-[caption id="attachment_693" align="aligncenter" width="519"]<a href="/static/img/wp/2013/10/img_3691.jpg"><img class="size-large wp-image-693" title="some LibreOffice QA contributorsRob, me and Robinson " alt="some LibreOffice QA contributorsRob, me and Robinson " src="/static/img/wp/2013/10/img_3691.jpg?w=519" width="519" height="346" /></a> some LibreOffice QA contributors: Rob, me and Robinson (left to right)[/caption]
+[caption id="attachment_693" align="aligncenter" width="519"]<a href="/img/wp/2013/10/img_3691.jpg"><img class="size-large wp-image-693" title="some LibreOffice QA contributorsRob, me and Robinson " alt="some LibreOffice QA contributorsRob, me and Robinson " src="/img/wp/2013/10/img_3691.jpg?w=519" width="519" height="346" /></a> some LibreOffice QA contributors: Rob, me and Robinson (left to right)[/caption]
 <p style="text-align:left;">So in the next days, I will be hopping over atlantic for a visit to the west coast, just to return to turn <a href="https://www.youtube.com/watch?v=xnRwQjTYfGI"><em>"eastbound and down, loaded up and trucking"</em></a> to be at <a href="https://wiki.documentfoundation.org/Hackfest/Freiburg2013">Freiburg for the Hackfest</a> again. A big Thank You in advance to Tauon and Florian Effenberger, who took over a lot of my organizer duties on this one due to this tight scheduling. Oh, and of course, I hope to see many of you there!</p>
 
 
-[caption id="attachment_695" align="aligncenter" width="212"]<a href="/static/img/wp/2013/10/freiburg.jpeg"><img class="size-medium wp-image-695" alt="Freiburg Hackfest Flyer" src="/static/img/wp/2013/10/freiburg.jpeg?w=212" width="212" height="300" /></a> <a href="https://wiki.documentfoundation.org/Hackfest/Freiburg2013">Freiburg Hackfest Flyer</a>[/caption]
+[caption id="attachment_695" align="aligncenter" width="212"]<a href="/img/wp/2013/10/freiburg.jpeg"><img class="size-medium wp-image-695" alt="Freiburg Hackfest Flyer" src="/img/wp/2013/10/freiburg.jpeg?w=212" width="212" height="300" /></a> <a href="https://wiki.documentfoundation.org/Hackfest/Freiburg2013">Freiburg Hackfest Flyer</a>[/caption]
 
 <sup>(*)</sup> actually they: By far, the most awesome stuff is now done by others than me
 

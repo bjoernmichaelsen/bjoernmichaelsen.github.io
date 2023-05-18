@@ -28,7 +28,7 @@ This allows users to be up-to-date with LibreOffice on the current stable releas
 </ul>
 Finally, this tasty pie chart shows that the red to yellow upstream parts of the rules file are not that big. Most of the rules file is concerned with mapping the build we want to do to both ./configure switches and dependencies<sup>(*)</sup> and splitting up the build result:
 
-<a href="/static/img/wp/2012/08/pkgstats.png"><img class="aligncenter size-full wp-image-130" title="" src="/static/img/wp/2012/08/pkgstats.png" alt="" width="519" height="389" /></a>
+<a href="/img/wp/2012/08/pkgstats.png"><img class="aligncenter size-full wp-image-130" title="" src="/img/wp/2012/08/pkgstats.png" alt="" width="519" height="389" /></a>
 
 This "last mile" of getting LibreOffice on Ubuntu and Debian is often overlooked. I still think it is quite an important (although mostly invisible) job. An explicit "Thank You!" to Rene for all his hard and continuous work on this.
 

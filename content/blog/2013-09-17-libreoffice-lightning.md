@@ -24,7 +24,7 @@ LibreOffice Lightning
 </ul>
 </li>
 </ul>
-[caption id="attachment_653" align="aligncenter" width="519"]<a href="/static/img/wp/2013/09/berlin2012.jpeg"><img class="size-large wp-image-653" alt="Its LibreOffice conference time again!" src="/static/img/wp/2013/09/berlin2012.jpeg?w=519" width="519" height="346" /></a> Its LibreOffice conference time again![/caption]
+[caption id="attachment_653" align="aligncenter" width="519"]<a href="/img/wp/2013/09/berlin2012.jpeg"><img class="size-large wp-image-653" alt="Its LibreOffice conference time again!" src="/img/wp/2013/09/berlin2012.jpeg?w=519" width="519" height="346" /></a> Its LibreOffice conference time again![/caption]
 
 Excited to see you all in Milan next week!
 
