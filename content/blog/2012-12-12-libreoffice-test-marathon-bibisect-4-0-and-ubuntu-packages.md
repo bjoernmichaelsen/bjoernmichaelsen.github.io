@@ -12,7 +12,7 @@ LibreOffice Test Marathon, Bibisect 4.0 and Ubuntu packages
 <p style="text-align:right;"><a href="http://www.linuxjournal.com/article/1026"><em>-- allegedly Linus Torvalds, 1995 at the First Dutch International Symposium on Linux</em></a></p>
 
 <address> </address><address>The  <a href="http://wiki.documentfoundation.org/QA/Test_Marathon_LibreOffice_4.0">LibreOffice 4.0 Test Marathon</a> will start on Friday, and this is a call to arms to join in on the fun! ;)</address>
-<p style="text-align:center;"><a href="http://wiki.documentfoundation.org/QA/Test_Marathon_LibreOffice_4.0" rel="attachment wp-att-278"><img class="aligncenter size-full wp-image-278" alt="GIn_BHS400-800" src="/static/img/wp/2012/12/gin_bhs400-800.png" width="519" height="75" /></a></p>
+<p style="text-align:center;"><a href="http://wiki.documentfoundation.org/QA/Test_Marathon_LibreOffice_4.0" rel="attachment wp-att-278"><img class="aligncenter size-full wp-image-278" alt="GIn_BHS400-800" src="/img/wp/2012/12/gin_bhs400-800.png" width="519" height="75" /></a></p>
 Now, while a lot of people will join the test marathon just for the good cause, for others it might need some candy to persuade them. So here is some sweet sugar:
 <h1>Bibisect 4.0</h1>
 <a href="http://skyfromme.wordpress.com/2012/11/12/dicke-bertha-online/">Dicke Bertha</a> had her burn-in in the last days. She compiled 146 full builds of the LibreOffice master branch from May 2012 up till now.

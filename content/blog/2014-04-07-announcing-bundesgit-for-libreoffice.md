@@ -20,7 +20,7 @@ Announcing BundesGit for LibreOffice
 	<li>press Ctrl-Shift-G (G for Git, Gesetz or whatever you intend it to mean)</li>
 	<li>LibreOffice will replace the abbreviation with the part of that law</li>
 </ul>
-[caption id="attachment_797" align="aligncenter" width="519"]<a href="/static/img/wp/2014/04/bundesgit.png"><img class="size-large wp-image-797" src="/static/img/wp/2014/04/bundesgit.png?w=519" alt="BundesGit for LibreOffice" width="519" height="258" /></a> BundesGit for LibreOffice[/caption]
+[caption id="attachment_797" align="aligncenter" width="519"]<a href="/img/wp/2014/04/bundesgit.png"><img class="size-large wp-image-797" src="/img/wp/2014/04/bundesgit.png?w=519" alt="BundesGit for LibreOffice" width="519" height="258" /></a> BundesGit for LibreOffice[/caption]
 
 Now this is still a proof-of-concept:
 <ul>

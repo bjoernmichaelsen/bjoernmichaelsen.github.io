@@ -123,7 +123,7 @@ where R: Read  {
 }
 fn main() {
     let f = File::open("/home/bjoern/checkouts/mirror-skyfromme/youcan039ttaketheskyfromme.wordpress.2023-04-25.000.xml").expect("file should be here.");
-    let articles = parse_wp(f, "http://skyfromme.files.wordpress.com/", "/static/img/wp/");
+    let articles = parse_wp(f, "http://skyfromme.files.wordpress.com/", "/img/wp/");
     for (filename, content) in &articles {
             let fullpath = format!("/home/bjoern/checkouts/bjoernmichaelsen.github.io/content/blog/{filename}");
             let mut file = File::create(fullpath).expect("we should be able to create these files");
@@ -152,15 +152,15 @@ mod tests {
     #[test]
     fn test_parse_wp() {
         let f = File::open("/home/bjoern/checkouts/mirror-skyfromme/youcan039ttaketheskyfromme.wordpress.2023-04-25.000.xml").expect("file should be here.");
-        let result = parse_wp(f, "http://skyfromme.files.wordpress.com/", "/static/img/wp/");
-        assert_eq!(result.len(), 158);
+        let result = parse_wp(f, "http://skyfromme.files.wordpress.com/", "/img/wp/");
+        assert_eq!(result.len(), 112);
         result.into_keys().for_each(|x| println!("{x}"));
     }
 
     #[test]
     fn test_fix_media_links() {
         let content = "<em><img class=\"aligncenter wp-image-318\" src=\"http://skyfromme.files.wordpress.com/2012/07/photo.jpg\" alt=\"photo\" width=\"250\" height=\"250\" /></em><p style=\"text-align:center;font-size:x-small;\">photo: (c) 2015 by Bjoern Michaelsen, Creative Commons Attribution-ShareAlike 3.0</p>";
-        let result = fix_media_links(content, "http://skyfromme.files.wordpress.com/", "/static/img/wp/");
-        assert_eq!(result, "<em><img class=\"aligncenter wp-image-318\" src=\"/static/img/wp/2012/07/photo.jpg\" alt=\"photo\" width=\"250\" height=\"250\" /></em><p style=\"text-align:center;font-size:x-small;\">photo: (c) 2015 by Bjoern Michaelsen, Creative Commons Attribution-ShareAlike 3.0</p>")
+        let result = fix_media_links(content, "http://skyfromme.files.wordpress.com/", "/img/wp/");
+        assert_eq!(result, "<em><img class=\"aligncenter wp-image-318\" src=\"/img/wp/2012/07/photo.jpg\" alt=\"photo\" width=\"250\" height=\"250\" /></em><p style=\"text-align:center;font-size:x-small;\">photo: (c) 2015 by Bjoern Michaelsen, Creative Commons Attribution-ShareAlike 3.0</p>")
     }
 }

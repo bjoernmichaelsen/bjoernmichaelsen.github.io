@@ -17,7 +17,7 @@ Gimme Fuel, Gimme Fire
 <p style="text-align:left;">Im happy to see that this build available again <a href="http://skyfromme.wordpress.com/2012/11/23/libreoffice-4-0-alpha1-available-for-testing/">a week earlier than last year</a>, as early testing allows more bugs to be triaged and fixed in time. The more important difference though is that last year, the alpha version was build on the stable and released version of Ubuntu, while this year the version is already build against the early and moving development version of Ubuntu.</p>
 
 
-[caption id="attachment_711" align="aligncenter" width="300"]<a href="/static/img/wp/2013/11/lo420alpha-on-trusty.png"><img class="size-medium wp-image-711" alt="LibreOffice 4.2.0 alpha1 and a hint of the new Startcenter on Ubuntu Trusty Tahr" src="/static/img/wp/2013/11/lo420alpha-on-trusty.png?w=300" width="300" height="225" /></a> LibreOffice 4.2.0 alpha1 and a hint of the new startcenter on Ubuntu Trusty Tahr[/caption]
+[caption id="attachment_711" align="aligncenter" width="300"]<a href="/img/wp/2013/11/lo420alpha-on-trusty.png"><img class="size-medium wp-image-711" alt="LibreOffice 4.2.0 alpha1 and a hint of the new Startcenter on Ubuntu Trusty Tahr" src="/img/wp/2013/11/lo420alpha-on-trusty.png?w=300" width="300" height="225" /></a> LibreOffice 4.2.0 alpha1 and a hint of the new startcenter on Ubuntu Trusty Tahr[/caption]
 <p style="text-align:left;">Happy testing!</p>
 
 Originally published on 2013-11-13 12:45:23 on [wordpress](https://skyfromme.wordpress.com/2013/11/13/gimme-fuel-gimme-fire/).

@@ -14,7 +14,7 @@ bugs and fixes in LibreOffices issue tracker -- beyond the 3.6 series
 <em> They're going through a tight wind</em></p>
 <p style="text-align:right;"><a href="http://www.youtube.com/watch?v=ElX7x_qNUYQ"><em>-- Blitzkrieg Bop, Ramones</em></a></p>
 <p style="text-align:left;">Italo wrote this nice <a href="http://blog.documentfoundation.org/2013/07/22/getting-close-to-libreoffice-4-1/">overview on the history of LibreOffice</a> giving a somewhat nostalgic view back on the early days and some good statistics on what we achieved since then, so when I posted the <a href="http://skyfromme.wordpress.com/2013/07/23/libreoffice-3-6-7-on-ubuntu-547-bug-fixes-and-zero-known-well-triaged-regressions-against-version-3-6-0-on-release/">postmortem on LibreOffice 3.6 yesterday</a> there were some questions on the numbers beyond the LibreOffice 3.6 series. Well, without further ado here they are:<sup><em>(*)</em></sup></p>
-<p style="text-align:left;"><a style="text-align:left;" href="/static/img/wp/2013/07/minorfixesall1.png"><img class="aligncenter size-full wp-image-550" alt="minorfixesall" src="/static/img/wp/2013/07/minorfixesall1.png" width="519" height="519" /></a></p>
+<p style="text-align:left;"><a style="text-align:left;" href="/img/wp/2013/07/minorfixesall1.png"><img class="aligncenter size-full wp-image-550" alt="minorfixesall" src="/img/wp/2013/07/minorfixesall1.png" width="519" height="519" /></a></p>
 There is some healthy growth in fixes going in each release although it somewhat slowed down<sup><em>(**)</em></sup> around the 3.6 series as the amount of bugfixes grew in a way that made it quite some extra work to keep up with their administration purely on a mailing list. Luckily, this is were <a href="https://gerrit.libreoffice.org">gerrit</a> came into play: In the 4.0 series most commits (77%) are reviewed on gerrit, which steamlined the work in a way that made the rate of fixes climbing again<sup><em>(***)</em></sup>, so that the <a href="http://www.libreoffice.org/download">current LibreOffice 4.0.4</a> has more bugfixes in a minor release than any previous version that early in the cycle.
 
 Note though that these bug fix counts can not be simply added for a multitude of reasons:
@@ -32,7 +32,7 @@ So how many bugs did LibreOffice resolve since it started? Its hard to tell, bec
 </ul>
 <em><strong>So in summary: Since it started and as of 2013-07-23, the LibreOffice project in total at least fixed 6.512 issues and resolved 12.596 bug reports from its own issue tracker.</strong></em>
 
-<a href="/static/img/wp/2013/07/resolvedbugs.png"><img class="aligncenter size-full wp-image-549" alt="" src="/static/img/wp/2013/07/resolvedbugs.png" width="519" height="278" /></a><em></em>
+<a href="/img/wp/2013/07/resolvedbugs.png"><img class="aligncenter size-full wp-image-549" alt="" src="/img/wp/2013/07/resolvedbugs.png" width="519" height="278" /></a><em></em>
 
 <sup><em>(*)</em></sup> A note on the minor release bug fix counts: They are just scraped off from the ChangeLog pages like <a href="https://wiki.documentfoundation.org/Releases/4.0.4/RC1">https://wiki.documentfoundation.org/Releases/4.0.4/RC1</a> -- esp. for older releases these might still be a bit off.
 <sup><em>(**)</em></sup> note that the 3.6 series was alive 3 month longer than 3.5 (~35% more time), without receiving the same amount of additional fixes.
