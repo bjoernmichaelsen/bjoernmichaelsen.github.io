@@ -7,7 +7,7 @@ originally-published-on=["livejournal"]
 LibreOffice QA EasyHacks
 ========================
 
-As discussed on [the last QA call](http://nabble.documentfoundation.org/Libreoffice-qa-LibreOffice-QA-call-2012-03-09-15-00-UTC-td3805645.html#none), here is a selection of Tasks related to QA that are easy for newcomers to get started with:
+As discussed on [the last QA call](https://web.archive.org/web/20120413124738/http://nabble.documentfoundation.org/Libreoffice-qa-LibreOffice-QA-call-2012-03-09-15-00-UTC-td3805645.html), here is a selection of Tasks related to QA that are easy for newcomers to get started with:
 
 * [Easy Hack 47666](https://bugs.freedesktop.org/show_bug.cgi?id=47666) - improve calc's filters test cases
 * [Easy Hack 47660](https://bugs.freedesktop.org/show_bug.cgi?id=47660) - Implement read-only anonymous access for Litmus

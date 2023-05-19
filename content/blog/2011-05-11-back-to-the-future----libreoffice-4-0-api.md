@@ -11,7 +11,7 @@ Back To The Future -- LibreOffice 4.0 API
 Dr. Emmett Brown: The way I see it, if you're gonna build a time machine into a car, why not do it with some style?
 </em></div>
 
-Following this [lively discussion](http://nabble.documentfoundation.org/Proposing-a-new-Easy-Hack-project-consistent-namespaces-td2826117.html) on the developer mailing list, we came to the conclusion that we need a wiki page to collect all the stuff we would like to change, but can not now, because it would make us to brutally incompatible. This is:
+Following this [lively discussion](https://web.archive.org/web/20190928020706/http://document-foundation-mail-archive.969070.n3.nabble.com/Proposing-a-new-Easy-Hack-project-consistent-namespaces-td2826117.html) on the developer mailing list, we came to the conclusion that we need a wiki page to collect all the stuff we would like to change, but can not now, because it would make us to brutally incompatible. This is:
 
 * not because we want to change everything right now and break existing client of the API.
 * also not because we never want to change the API and just want to postpone this topic ad infinitum.
