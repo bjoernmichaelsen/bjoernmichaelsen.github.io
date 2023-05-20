@@ -15,8 +15,8 @@ For trying to change the system from within
 <p style="text-align:left;">Anyone who observed me spotting <a href="http://c2.com/cgi/wiki?PimplIdiom">a Pimpl </a>in code will know that I am not a fan of this idom. Its intend is to reduce build times by using a design pattern to move implementation details out of headers -- a workaround for C++s misfeature of by default needing a recompile even for changing implementation details only without changing the public interface. Now I personally always thought a <a href="http://www.cprogramming.com/tips/tip/in-cplusplus-a-pure-abstract-base-class-is-a-contract">pure abstract base class</a> to be a more "native" and less ugly way to tell this to the compiler. However, without real testing, such gut feelings are rarely good advisors in a complex language like C++.</p>
 <p style="text-align:left;">So I did some testing on the real life performance of a pure abstract base class vs. a pimpl (each of course in a different compilation unit to prevent the compiler to optimize away what we want to measure) -- and for reference, a class with functions that can be completely inlined. These are the three test implementations, inline:</p>
 
-<pre style="font-family:monospace;">
--- header (hxx) --
+```C++
+//-- header (hxx) --
 class InlineClass final
 {
 	public:
@@ -32,12 +32,12 @@ class InlineClass final
 		const int m_nSecond;
 		int m_nResult;
 };
-</pre>
+```
 <p style="text-align:left;">Pimpl, as suggested by <a href="http://scottmeyers.blogspot.de/2014/07/draft-version-of-effective-modern-c-now.html">Effective Modern C++</a> when using C++11, but not C++14:</p>
 
-<pre style="font-family:monospace;">
--- header (hxx) --
-#include &lt;memory&gt;
+```C++
+//-- header (hxx) --
+#include <memory>
 class PimplClass final
 {
 	public:
@@ -47,9 +47,9 @@ class PimplClass final
 		int GetResult() const;
 	private:
 		struct Impl;
-		std::unique_ptr&lt;Impl&gt; m_pImpl;
+		std::unique_ptr<Impl> m_pImpl;
 };
--- implementation (cxx) --
+//-- implementation (cxx) --
 #include "pimpl.hxx"
 struct PimplClass::Impl
 {
@@ -61,30 +61,30 @@ struct PimplClass::Impl
 	int m_nResult;
 };
 PimplClass::PimplClass(int nFirst, int nSecond)
-	: m_pImpl(std::unique_ptr&lt;Impl&gt;(new Impl(nFirst, nSecond)))
+	: m_pImpl(std::unique_ptr<Impl>(new Impl(nFirst, nSecond)))
 {}
 PimplClass::~PimplClass()
 	{}
 void PimplClass::Add()
-	{ m_pImpl-&gt;m_nResult = m_pImpl-&gt;m_nFirst + m_pImpl-&gt;m_nSecond; }
+	{ m_pImpl->m_nResult = m_pImpl-&gt;m_nFirst + m_pImpl-&gt;m_nSecond; }
 int PimplClass::GetResult() const
-	{ return m_pImpl-&gt;m_nResult; }
-</pre>
+	{ return m_pImpl->m_nResult; }
+```
 <p style="text-align:left;">Pure abstract base class:</p>
 
-<pre style="font-family:monospace;">
--- header (hxx) --
-#include &lt;memory&gt;
+```C++
+//-- header (hxx) --
+#include <memory>
 struct AbcClass
 {
-	static std::shared_ptr&lt;AbcClass&gt; Create(int nFirst, int nSecond);
+	static std::shared_ptr<AbcClass> Create(int nFirst, int nSecond);
 	virtual ~AbcClass() {};
 	virtual void Add() =0;
 	virtual int GetResult() const =0;
 };
--- implementation (cxx) --
+//-- implementation (cxx) --
 #include "abc.hxx"
-#include &lt;memory&gt;
+#include <memory>
 struct AbcClassImpl final : public AbcClass
 {
 	AbcClassImpl(int nFirst, int nSecond)
@@ -98,9 +98,10 @@ struct AbcClassImpl final : public AbcClass
 	const int m_nSecond;
 	int m_nResult;
 };
-std::shared_ptr&lt;AbcClass&gt; AbcClass::Create(int nFirst, int nSecond)
-	{ return std::shared_ptr&lt;AbcClass&gt;(new AbcClassImpl(nFirst, nSecond)); }
-</pre>
+std::shared_ptr<AbcClass> AbcClass::Create(int nFirst, int nSecond)
+	{ return std::shared_ptr<AbcClass>(new AbcClassImpl(nFirst, nSecond)); }
+```
+
 <p style="text-align:left;">Comparing these we find:</p>
 
 <table>
@@ -145,27 +146,29 @@ Thanks for bearing with me on this rant about one of my personal pet peeves here
 
 <sup>1</sup> entropy is measured as <code>cat abc.[hc]xx|gzip|wc -c</code> or <code> cat pimpl.[hc]xx|sed -e 's/Pimpl/Abc/g'|gzip|wc -c</code>.
 <sup>2</sup> Here is the code run for that comparision:
-<pre style="font-family:monospace;">
+
+```C++
 constexpr int repeats = 100000;
 
 int pimplrun(long count)
 //int abcrun(long count)
 {
-        std::vector&lt; std::shared_ptr&lt;PimplClass /* AbcClass */ &gt; &gt; vInstances;
+        std::vector< std::shared_ptr&lt;PimplClass /* AbcClass */ > > vInstances;
         vInstances.reserve(count);
         while(--count)
-                vInstances.emplace_back(std::make_shared&lt;PimplClass&gt;(4711, 4711));
+                vInstances.emplace_back(std::make_shared<PimplClass>(4711, 4711));
                 //vInstances.emplace_back(AbcClass::Create(4711, 4711));
         int result(0);
         count = vInstances.size();
         while(--count)
                 for(auto pInstance : vInstances)
                 {
-                        pInstance-&gt;Add();
-                        result += pInstance-&gt;GetResult();
+                        pInstance->Add();
+                        result += pInstance->GetResult();
                 }
         return result;
 }
+```
 
 </pre>
 Instances are stored in shared pointers as anything that a Pimpl is considered for would be "heavy" enough to be handled by reference instead of by value.
