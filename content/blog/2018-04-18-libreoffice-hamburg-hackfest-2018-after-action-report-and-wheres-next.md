@@ -11,7 +11,7 @@ LibreOffice Hamburg Hackfest 2018 After Action Report and: Where's next?
 <p style="text-align:right;"><em>Freedom's just another word for nothin' left to lose</em>
 <em>Nothin', it ain't nothin' honey, if it ain't free</em></p>
 <p style="text-align:right;"><em><a href="https://www.youtube.com/watch?v=WXV_QjenbDw">— Janis Joplin singing "Me and Bobby McGee" by Kris Kristofferson</a></em></p>
-Years ago, I opened one of the <a href="https://wiki.documentfoundation.org/Hackfest/Hamburg2013">first LibreOffice Hackfests in Hamburg</a> with the motto inscribed in the Hamburg city hall: "Libertatem⁠￼ quam peperere maiores digne studeat servare posteritas". This year, the LibreOffice Hackfest <a href="https://wiki.documentfoundation.org/Hackfest/Hamburg2018">came back to Hamburg</a>: to the office of <a href="https://freiheit.com">freiheit.com</a>.
+Years ago, I opened one of the <a href="https://wiki.documentfoundation.org/Hackfest/Hamburg2013">first LibreOffice Hackfests in Hamburg</a> with the motto inscribed in the Hamburg city hall: "Libertatem quam peperere maiores digne studeat servare posteritas". This year, the LibreOffice Hackfest <a href="https://wiki.documentfoundation.org/Hackfest/Hamburg2018">came back to Hamburg</a>: to the office of <a href="https://freiheit.com">freiheit.com</a>.
 
 ![Carolin, Jessica and Lena from freiheit.com helping me opening the Hackfest (c) 2018 Thorsten Behrens. All rights resevered.](/img/wp/2018/04/freiheit.jpg)
 
