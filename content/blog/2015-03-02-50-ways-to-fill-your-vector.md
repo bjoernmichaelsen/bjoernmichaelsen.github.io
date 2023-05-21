@@ -8,152 +8,153 @@ categories=["c++", "libreoffice", "performance", "ubuntu"]
 50 ways to fill your vector ...
 ===============================
 
-<p style="text-align:right;"><i>"The problem is all inside your head" she said to me
-"The answer is easy if you take it logically"
-<a href="https://www.youtube.com/watch?v=298nld4Yfds">— Paul Simon, 50 ways to leave your lover</a></i></p>
+<p style="text-align:right;"><em>"The problem is all inside your head" she said to me</em></p>
+<p style="text-align:right;"><em>"The answer is easy if you take it logically"</em></p>
+<p style="text-align:right;"><em><a href="https://www.youtube.com/watch?v=298nld4Yfds">— Paul Simon, 50 ways to leave your lover</a></em></p>
+
 So recently I tweaked around with these newfangled C++11 initializer lists and created an EasyHack to use them to <a href="https://bugs.documentfoundation.org/show_bug.cgi?id=89592">initialize property sequences in a readable way</a>. This caused a <a href="http://nabble.documentfoundation.org/Re-Libreoffice-commits-use-init-lists-for-property-sequences-td4141205.html">short exchange on the LibreOffice mailing list</a>, which I assumed had its part in motivating Stephans interesting post <a href="https://whatofhow.wordpress.com/2015/02/25/on-filling-a-vector/">"On filling a vector"</a>. For all the points being made (also in the quick follow up on <a href="irc://chat.freenode.net/libreoffice-dev">IRC</a>), I wondered how much the theoretical "can use a move constructor" discussed etc. really meant when the C++ is translated to e.g. <a href="https://gcc.gnu.org/onlinedocs/gccint/GENERIC.html#GENERIC">GENERIC</a>, then <a href="https://gcc.gnu.org/onlinedocs/gccint/GIMPLE.html#GIMPLE">GIMPLE</a>, then <a href="https://en.wikipedia.org/wiki/X86_assembly_language">amd64 assembler</a>, then to the <a href="http://sunnyeves.blogspot.de/2009/07/intel-x86-processors-cisc-or-risc-or.html">internal RISC instructions of the CPU </a>-- with multiple levels of caching in addition.
 
 So I quickly wrote the following (thanks so much for C++11 having the nice <code>std::chrono</code> now).
 
 data.hxx:
-<code>
-#include &lt;vector&gt;
+```C++
+#include <vector>
 struct Data {
-&nbsp;&nbsp;&nbsp;&nbsp;Data();
-&nbsp;&nbsp;&nbsp;&nbsp;Data(int a);
-&nbsp;&nbsp;&nbsp;&nbsp;int m_a;
+    Data();
+    Data(int a);
+    int m_a;
 };
-void DoSomething(std::vector&lt;Data&gt;&amp;);
-</code>
+void DoSomething(std::vector<Data>&);
+```
 
 data.cxx:
-<code>
+```C++
 #include "data.hxx"
 // noop in different compilation unit to prevent optimizing out what we want to measure
-void DoSomething(std::vector&lt;Data&gt;&amp;) {};
+void DoSomething(std::vector<Data>&) {};
 Data::Data() : m_a(4711) {};
 Data::Data(int a) : m_a(a+4711) {};
-</code>
+```
 
 main.cxx:
-<code>
+```C++
 #include "data.hxx"
-#include &lt;iostream&gt;
-#include &lt;vector&gt;
-#include &lt;chrono&gt;
-#include &lt;functional&gt;
+#include <iostream>
+#include <vector>
+#include <chrono>
+#include <functional>
 
 void A1(long count) {
-&nbsp;&nbsp;&nbsp;&nbsp;while(--count) {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;std::vector&lt;Data&gt; vec { Data(), Data(), Data() };
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DoSomething(vec);
-&nbsp;&nbsp;&nbsp;&nbsp;}
+    while(--count) {
+        std::vector<Data> vec { Data(), Data(), Data() };
+        DoSomething(vec);
+    }
 }
 
 void A2(long count) {
-&nbsp;&nbsp;&nbsp;&nbsp;while(--count) {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;std::vector&lt;Data&gt; vec { {}, {}, {} };
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DoSomething(vec);
-&nbsp;&nbsp;&nbsp;&nbsp;}
+    while(--count) {
+        std::vector<Data> vec { {}, {}, {} };
+        DoSomething(vec);
+    }
 }
 
 void A3(long count) {
-&nbsp;&nbsp;&nbsp;&nbsp;while(--count) {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;std::vector&lt;Data&gt; vec { 0, 0, 0 };
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DoSomething(vec);
-&nbsp;&nbsp;&nbsp;&nbsp;}
+    while(--count) {
+        std::vector<Data> vec { 0, 0, 0 };
+        DoSomething(vec);
+    }
 }
 
 void B1(long count) {
-&nbsp;&nbsp;&nbsp;&nbsp;while(--count) {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;std::vector&lt;Data&gt; vec;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.reserve(3);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.push_back(Data());
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.push_back(Data());
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.push_back(Data());
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DoSomething(vec);
-&nbsp;&nbsp;&nbsp;&nbsp;}
+    while(--count) {
+        std::vector<Data> vec;
+        vec.reserve(3);
+        vec.push_back(Data());
+        vec.push_back(Data());
+        vec.push_back(Data());
+        DoSomething(vec);
+    }
 }
 
 void B2(long count) {
-&nbsp;&nbsp;&nbsp;&nbsp;while(--count) {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;std::vector&lt;Data&gt; vec;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.reserve(3);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.push_back({});
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.push_back({});
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.push_back({});
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DoSomething(vec);
-&nbsp;&nbsp;&nbsp;&nbsp;}
+    while(--count) {
+        std::vector<Data> vec;
+        vec.reserve(3);
+        vec.push_back({});
+        vec.push_back({});
+        vec.push_back({});
+        DoSomething(vec);
+    }
 }
 
 void B3(long count) {
-&nbsp;&nbsp;&nbsp;&nbsp;while(--count) {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;std::vector&lt;Data&gt; vec;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.reserve(3);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.push_back(0);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.push_back(0);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.push_back(0);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DoSomething(vec);
-&nbsp;&nbsp;&nbsp;&nbsp;}
+    while(--count) {
+        std::vector<Data> vec;
+        vec.reserve(3);
+        vec.push_back(0);
+        vec.push_back(0);
+        vec.push_back(0);
+        DoSomething(vec);
+    }
 }
 
 void C1(long count) {
-&nbsp;&nbsp;&nbsp;&nbsp;while(--count) {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;std::vector&lt;Data&gt; vec;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.reserve(3);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.emplace_back(Data());
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.emplace_back(Data());
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.emplace_back(Data());
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DoSomething(vec);
-&nbsp;&nbsp;&nbsp;&nbsp;}
+    while(--count) {
+        std::vector<Data> vec;
+        vec.reserve(3);
+        vec.emplace_back(Data());
+        vec.emplace_back(Data());
+        vec.emplace_back(Data());
+        DoSomething(vec);
+    }
 }
 
 void C3(long count) {
-&nbsp;&nbsp;&nbsp;&nbsp;while(--count) {
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;std::vector&lt;Data&gt; vec;
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.reserve(3);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.emplace_back(0);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.emplace_back(0);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;vec.emplace_back(0);
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DoSomething(vec);
-&nbsp;&nbsp;&nbsp;&nbsp;}
+    while(--count) {
+        std::vector<Data> vec;
+        vec.reserve(3);
+        vec.emplace_back(0);
+        vec.emplace_back(0);
+        vec.emplace_back(0);
+        DoSomething(vec);
+    }
 }
 
-double benchmark(const char* name, std::function&lt;void (long)&gt; testfunc, const long count) {
-&nbsp;&nbsp;&nbsp;&nbsp;const auto start = std::chrono::system_clock::now();
-&nbsp;&nbsp;&nbsp;&nbsp;testfunc(count);
-&nbsp;&nbsp;&nbsp;&nbsp;const auto end = std::chrono::system_clock::now();
-&nbsp;&nbsp;&nbsp;&nbsp;const std::chrono::duration&lt;double&gt; delta = end-start;
-&nbsp;&nbsp;&nbsp;&nbsp;std::cout &lt;&lt; count &lt;&lt; " " &lt;&lt; name &lt;&lt; " iterations took " &lt;&lt; delta.count() &lt;&lt; " seconds." &lt;&lt; std::endl;
-&nbsp;&nbsp;&nbsp;&nbsp;return delta.count();
+double benchmark(const char* name, std::function<void (long)> testfunc, const long count) {
+    const auto start = std::chrono::system_clock::now();
+    testfunc(count);
+    const auto end = std::chrono::system_clock::now();
+    const std::chrono::duration<double> delta = end-start;
+    std::cout << count << " " << name << " iterations took " << delta.count() << " seconds." << std::endl;
+    return delta.count();
 }
 
 int main(int, char**) {
-&nbsp;&nbsp;&nbsp;&nbsp;long count = 10000000;
-&nbsp;&nbsp;&nbsp;&nbsp;while(benchmark("A1", &amp;A1, count) &lt; 60l)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count &lt;&lt;= 1;
-&nbsp;&nbsp;&nbsp;&nbsp;std::cout &lt;&lt; &quot;Going with &quot; &lt;&lt; count &lt;&lt; &quot; iterations.&quot; &lt;&lt; std::endl;
-&nbsp;&nbsp;&nbsp;&nbsp;benchmark(&quot;A1&quot;, &amp;A1, count);
-&nbsp;&nbsp;&nbsp;&nbsp;benchmark(&quot;A2&quot;, &amp;A2, count);
-&nbsp;&nbsp;&nbsp;&nbsp;benchmark(&quot;A3&quot;, &amp;A3, count);
-&nbsp;&nbsp;&nbsp;&nbsp;benchmark(&quot;B1&quot;, &amp;B1, count);
-&nbsp;&nbsp;&nbsp;&nbsp;benchmark(&quot;B2&quot;, &amp;B2, count);
-&nbsp;&nbsp;&nbsp;&nbsp;benchmark(&quot;B3&quot;, &amp;B3, count);
-&nbsp;&nbsp;&nbsp;&nbsp;benchmark(&quot;C1&quot;, &amp;C1, count);
-&nbsp;&nbsp;&nbsp;&nbsp;benchmark(&quot;C3&quot;, &amp;C3, count);
-&nbsp;&nbsp;&nbsp;&nbsp;return 0;
+    long count = 10000000;
+    while(benchmark("A1", &A1, count) < 60l)
+        count <<= 1;
+    std::cout << "Going with " << count << " iterations." << std::endl;
+    benchmark("A1", &A1, count);
+    benchmark("A2", &A2, count);
+    benchmark("A3", &A3, count);
+    benchmark("B1", &B1, count);
+    benchmark("B2", &B2, count);
+    benchmark("B3", &B3, count);
+    benchmark("C1", &C1, count);
+    benchmark("C3", &C3, count);
+    return 0;
 }
-</code>
+```
 
 Makefile:
-<code>
+```C++
 CFLAGS?=-O2
 main: main.o data.o
-&nbsp;&nbsp;&nbsp;&nbsp;g++ -o $@ $^
+    g++ -o $@ $^
 
 %.o: %.cxx data.hxx
-&nbsp;&nbsp;&nbsp;&nbsp;g++ $(CFLAGS) -std=c++11 -o $@ -c $&lt;
-</code>
+    g++ $(CFLAGS) -std=c++11 -o $@ -c $<
+```
 
 Note the object here is small and trivial to copy as one would expect from objects passed around as values (as expensive to copy objects mostly can be passed around with a <code>std::shared_ptr</code>). So what did this measure? Here are the results:
 
@@ -302,7 +303,7 @@ Some observations on these measurements:
 	<li>There is no silver bullet with regard to the different implementations: A1, A2 and A3 are the faster implementations when not inlining constructors and using <code>-Os</code> or <code>-O2</code> (the quickest A* is ~10% faster than the quickest B*/C*). However when inlining constructors and using -O3, the same implementations are the slowest (by 2.4%).</li>
 	<li>Most common release builds are still done with <code>-O2</code> these days. For those, using initializer lists (A1/A2/A3) seem too have a significant edge over the alternatives, whether constructors are inlined or not. This is in contrast to the conclusions made from <a href="https://whatofhow.wordpress.com/2015/02/25/on-filling-a-vector/">"constructor counting"</a>, which assumed these to be slow because of additional calls needed.</li>
 	<li>The numbers printed in bold are either the quickest implementation in a build scenario or one that is within 1.5% of the quickest implementation. A1 and A2 are sharing the title here by being in that group five times each.</li>
-	<li>With constructors inlined, everything in the loop except <code>DoSomething()</code> could be inline. It seems to me that the compiler could -- at least in theory -- figure out that it is asked the same thing in all cases. Namely, reserve space for three ints on the heap, fill them each with 4711 and make the <code>::std::vector&lt;int&gt;</code> data structure on the stack reflect that, then hand that to the <code>DoSomething()</code> function that you know nothing about. If the compiler would figure that out, it would take the same time for all implementations. This doesnt happen either on <code>-O2</code> (differ by ~18% from quickest to slowest) nor on <code>-O3</code> (differ by ~3.6%).</li>
+	<li>With constructors inlined, everything in the loop except <code>DoSomething()</code> could be inline. It seems to me that the compiler could -- at least in theory -- figure out that it is asked the same thing in all cases. Namely, reserve space for three ints on the heap, fill them each with 4711 and make the <code>::std::vector&lt;int></code> data structure on the stack reflect that, then hand that to the <code>DoSomething()</code> function that you know nothing about. If the compiler would figure that out, it would take the same time for all implementations. This doesnt happen either on <code>-O2</code> (differ by ~18% from quickest to slowest) nor on <code>-O3</code> (differ by ~3.6%).</li>
 </ul>
 One common mantra in applications development is "trust the compiler to optimize". The above observations show a few cracks in the foundations of that, esp. if you take into account that this is all on the same version of the same compiler running on the same platform and hardware with the same STL implementation. For huge objects with expensive constructors, the constructor counting approach might still be valid. Then again, those are rarely statically initialized as a bigger bunch into a vector. For the more common scenario of smaller objects with cheap constructors, my tentative conclusion so far would be to go with A1/A2/A3 -- not so much because they are quickest in the most common build scenarios on my platform, but rather because the readability of them is a value on its own while the performance picture is muddy at best.
 

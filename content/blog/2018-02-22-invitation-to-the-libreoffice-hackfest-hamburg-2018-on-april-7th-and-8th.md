@@ -9,9 +9,9 @@ Invitation to the LibreOffice Hackfest Hamburg 2018 on April 7th and 8th
 ========================================================================
 
 <p style="text-align:right;"><em>... for a holiday of working class</em>
-<em>She's a runaway o</em><em>f the establishment incorporated</em>
-<em>She won't cooperate</em>
-<em><a href="https://www.youtube.com/watch?v=HR8Ia6vyV5Q">— Last of the American Girls, 21 Guns, Green Day</a></em></p>
+<p style="text-align:right;"><em>She's a runaway of the establishment incorporated</em></p>
+<p style="text-align:right;"><em>She won't cooperate</em></p>
+<p style="text-align:right;"><em><a href="https://www.youtube.com/watch?v=HR8Ia6vyV5Q">— Last of the American Girls, 21 Guns, Green Day</a></em></p>
 Its once again time to meet again in Hamburg for a LibreOffice Hackfest! We will meet with contributors to LibreOffice – old and new – and also welcome those who have not yet contributed to the project, but are interested in doing so. This will also be the first <a href="https://skyfromme.wordpress.com/2017/08/27/hackfests-the-next-generation/">Hackfest TNG</a>.
 
 We will have <a href="https://wiki.documentfoundation.org/Development/EasyHacks">EasyHacks</a> prepared for anyone wanting to do their first code contribution to the project – and we will have mentors around who may provide guidance to every interested newcomer. An Hackfest is the easiest way to get involved for a curious newcomers to the project: we certainly can offer an interesting C++ codebase!

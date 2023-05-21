@@ -8,10 +8,11 @@ categories=["libreoffice", "ubuntu"]
 A third of a LibreOffice snap
 =============================
 
-<p style="text-align:right;"><em>Take your time, hurry up</em>
-<em> The choice is yours, don't be late</em>
-<em> Take a rest as a friend</em>
-<a href="https://www.youtube.com/watch?v=vabnZ9-ex7o">-- Nirvana, Come As You Are</a></p>
+<p style="text-align:right;"><em>Take your time, hurry up</em></p>
+<p style="text-align:right;"><em>The choice is yours, don't be late</em></p>
+<p style="text-align:right;"><em>Take a rest as a friend</em></p>
+<p style="text-align:right;"><a href="https://www.youtube.com/watch?v=vabnZ9-ex7o">-- Nirvana, Come As You Are</a></p>
+
 <p style="text-align:left;">I have just updated the LibreOffice snap package. The size of the package available for download created some confusion. As LibreOffice 5.2 is still in beta, I built and packed it with full debug symbols to allow analysis of possible problems. Comparing this to the size of e.g. the default install from Ubuntu *.deb packages is misleading:</p>
 
 <ul>

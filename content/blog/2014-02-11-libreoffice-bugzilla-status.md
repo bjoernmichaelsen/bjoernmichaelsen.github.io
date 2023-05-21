@@ -9,12 +9,13 @@ LibreOffice bugzilla status
 ===========================
 
 <p style="text-align:right;"><em>Im kind of over gettin told to throw my hands up in the air</em></p>
-<p style="text-align:right;"><em> so there</em></p>
+<p style="text-align:right;"><em>so there</em></p>
 <p style="text-align:right;"><a href="https://www.youtube.com/watch?v=YtdK_Y5iZnU"><em>Team, Pure Herione, Lorde</em></a></p>
+
 <p style="text-align:left;">So, somewhere between the LibreOffice 4.2.0 and the 4.1.5 release, <a href="https://bugs.freedesktop.org/">bugs.freedesktop.org</a> broke through 25.000 reported bugs. A time to throw the hands up in despair? Not at all, as the following chart shows:</p>
 
 
-[caption id="attachment_780" align="aligncenter" width="300"]<a href="/img/wp/2014/02/fdobugstate.png"><img class="size-medium wp-image-780" alt="LibreOffice bug states on freedesktop" src="/img/wp/2014/02/fdobugstate.png?w=300" width="300" height="194" /></a> LibreOffice bug states on freedesktop[/caption]
+[LibreOffice bug states on freedesktop](/img/wp/2014/02/fdobugstate.png)
 <ul>
 	<li>7% of reports are still unconfirmed or need more information</li>
 	<li>22% are confirmed and unresolved issues, that are not enhancements requests</li>

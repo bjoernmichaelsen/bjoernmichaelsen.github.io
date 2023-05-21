@@ -8,9 +8,10 @@ categories=["libreoffice", "ubuntu"]
 LibreOffice 3.6.7 on Ubuntu: 547 bug fixes and zero known, well-triaged regressions against version 3.6.0 on release
 ====================================================================================================================
 
-<p style="text-align:right;"><em>Dear Prudence, won't you come out to play</em>
-<em> Dear Prudence, greet the brand new day</em></p>
+<p style="text-align:right;"><em>Dear Prudence, won't you come out to play</em></p>
+<p style="text-align:right;"><em>Dear Prudence, greet the brand new day</em></p>
 <p style="text-align:right;"><em>-<a href="https://www.youtube.com/watch?v=AZDw0uu6UO0&amp;list=PLBA1F4B9119D173F2">- Dear Prudence, White Album, Beatles</a></em></p>
+
 Yesterday, I put a build of LibreOffice 3.6.7 in the <a href="https://launchpad.net/~libreoffice/+archive/libreoffice-3-6">according Ubuntu PPA</a>. As LibreOffice 3.6.7 is the last minor release update for the 3.6 series this is a good time to have a look back and see how our choice of a train release model pays off. For this I had a look at the number of bugfixes and the regressions over the series. First lets look if there were any regressions in the minor series: that is, if there is something which worked in 3.6.0, but which stopped working in 3.6.7. For LibreOffice 3.6.7 we look at:
 <ul>
 	<li>known issues (that is: they have to be reported e.g. at our <a href="https://www.libreoffice.org/get-help/bug/">Bug Submission Agent</a>)</li>

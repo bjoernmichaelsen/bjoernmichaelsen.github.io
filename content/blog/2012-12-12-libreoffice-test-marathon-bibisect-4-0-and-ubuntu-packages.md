@@ -48,7 +48,10 @@ If you cut past all the buzzwords, you find that 'test case management' means, w
 </ul>
 So, it is really simple and you are invited to join in! As a bonus you can make sure that developers know now, if something broke since the last release and since the release in February is still a bit off have more time to fix it until then!
 
-[caption id="" align="alignnone" width="800"]<img class=" " alt="" src="http://nextdoornature.files.wordpress.com/2011/07/firefly-by-jessica-lucia-cc.jpg?w=800&amp;h=533" width="800" height="533" /> Not every bug is as beautiful as this one ... (Photo: Jessica Lucia, Creative Commons license)[/caption]
+Not every bug is as beautiful as this one ... (Photo: Jessica Lucia, Creative Commons license):
+
+![Firefly](http://nextdoornature.files.wordpress.com/2011/07/firefly-by-jessica-lucia-cc.jpg?w=800&amp;h=533")
+
 <h1>Ubuntu packages for alpha/beta releases</h1>
 On the <a href="https://launchpad.net/~libreoffice/+archive/libreoffice-prereleases">LibreOffice prereleases PPA</a> you find a packaged version of <a href="https://launchpad.net/~libreoffice/+archive/libreoffice-prereleases/+sourcepub/2834822/+listing-archive-extra">LibreOffice 4.0 beta1 for Ubuntu Raring</a> that you can use in the test marathon. There is also a version of <a href="https://launchpad.net/~libreoffice/+archive/libreoffice-prereleases/+sourcepub/2803189/+listing-archive-extra">LibreOffice 4.0 alpha1 for Ubuntu 12.10 (Quantal)</a> there, which should you also be able to use for discovering bugs.
 

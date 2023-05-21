@@ -8,8 +8,9 @@ categories=["build system", "ci", "continuous intregration", "gerrit", "git", "j
 Death or Glory vs. Continuous Integration
 =========================================
 
-<p style="text-align:right;"><em>But I believe in this and it's been tested by research</em>
-<a href="https://www.youtube.com/watch?v=MwzMuuGOsVI"><em> -- The Clash, Death and Glory</em></a></p>
+<p style="text-align:right;"><em>But I believe in this and it's been tested by research</em></p>
+<p style="text-align:right;"><em><a href="https://www.youtube.com/watch?v=MwzMuuGOsVI"><em> -- The Clash, Death and Glory</em></a></p>
+
 <p style="text-align:left;">Thanks to Norbert's efforts, the LibreOffice project now has a Jenkins setup that not only gives us visibility on how healthy our master branch is, with the results being reported to the ESC regularly: In addition it allows everyone easily testing commits and branches on all major LibreOffice platforms (Linux, OS X, Windows) just by uploading a change to <a href="https://gerrit.libreoffice.org/">gerrit</a>. Doing so is really easy once you are <a href="https://wiki.documentfoundation.org/Gerrit#Setting_Yourself_Up_For_Gerrit">set up</a>:</p>
 
 <pre>./logerrit submit                      # a little helper script in our repo

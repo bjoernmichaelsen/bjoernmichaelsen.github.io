@@ -8,8 +8,9 @@ categories=["libreoffice", "openoffice", "ubuntu"]
 Merging Communities
 ===================
 
-<p style="text-align:right;"><em>Come together, right now
-<a href="https://www.youtube.com/watch?v=_HONxwhwmgU">-- Beatles, Abbey Road, Come together</a></em></p>
+<p style="text-align:right;"><em>Come together, right now</p>
+<p style="text-align:right;"><a href="https://www.youtube.com/watch?v=_HONxwhwmgU">-- Beatles, Abbey Road, Come together</a></em></p>
+
 So September, 28th 2016 is the <a href="https://blog.documentfoundation.org/blog/2016/09/28/happy-6th-birthday-libreoffice/">6th birthday of LibreOffice</a> and at the recent conference, we took a picture of those who were there on day zero:
 
 ![day zero LibreOffice](/img/wp/2016/09/brno32.jpg")

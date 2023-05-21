@@ -8,11 +8,11 @@ categories=["libreoffice", "ubuntu"]
 LibreOffice 5.2.0 beta2 as a snap package
 =========================================
 
-<p style="text-align:right;"><em>What's been happening in your world?</em>
-<em> What have you been up to?</em>
-<em><a href="https://www.youtube.com/watch?v=H8tLS_NOWLs">-- Arctic Monkeys, Snap out of it</a></em></p>
-<p style="text-align:left;">So -- here is what I have been up to:</p>
+<p style="text-align:right;"><em>What's been happening in your world?</em></p>
+<p style="text-align:right;"><em> What have you been up to?</em></p>
+<p style="text-align:right;"><em><a href="https://www.youtube.com/watch?v=H8tLS_NOWLs">-- Arctic Monkeys, Snap out of it</a></em></p>
 
+<p style="text-align:left;">So -- here is what I have been up to:</p>
 
 ![LibreOffice 5.2.0 beta2 installed as a snap on Ubuntu 16.04](/img/wp/2016/06/libreoffice-5-2snap.png)
 

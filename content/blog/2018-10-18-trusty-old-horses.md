@@ -8,9 +8,10 @@ categories=["libreoffice"]
 trusty old horses
 =================
 
-<p style="text-align:right;"><em>Will you still need me, will you still feed me</em>
-<em>When I'm sixty-four?</em>
-<em><a href="https://www.youtube.com/watch?v=8AglUMCKyns">— When I'm sixty-four,  Sgt. Pepper's Lonely Hearts Club Band, The Beatles</a></em></p>
+<p style="text-align:right;"><em>Will you still need me, will you still feed me</em></p>
+<p style="text-align:right;"><em>When I'm sixty-four?</em></p>
+<p style="text-align:right;"><em><a href="https://www.youtube.com/watch?v=8AglUMCKyns">— When I'm sixty-four,  Sgt. Pepper's Lonely Hearts Club Band, The Beatles</a></em></p>
+
 So almost six years ago I started using <a href="https://skyfromme.wordpress.com/2012/11/12/dicke-bertha-online/">my LibreOffice development rig "Big Bertha"</a>. Back then I thought: "This likely will be my last big machine, the next time I wont buy anything for under my desk, I will just build in the cloud.". Six years on, that is partially true: I did not buy a new "desktop" machine. On the other hand, I am not building on some cloud machine either: I still use good old Bertha. So, why that?
 
 For one, the speed of processors stopped improving at the insane rate it had before, so indeed machines that one buys today are not that much faster than those six years ago. However, cloud computing prices also stopped dropping like they used to. Which leaves me with not much reasons to buy new hardware -- but also with little reason to consider to accept the additional inconveniences that come with building on remote hardware.

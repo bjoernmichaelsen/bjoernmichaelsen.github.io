@@ -8,10 +8,10 @@ categories=["libreoffice", "ubuntu"]
 Train Stops
 ===========
 
-<p style="text-align:right;"><em>And the sons of pullman porters and the sons of engineers</em>
-<em> Ride their father's magic carpets made of steel</em>
-<em> Mothers with their babes asleep are rockin' to the gentle beat</em>
-<em> And the rhythm of the rails is all they feel</em></p>
+<p style="text-align:right;"><em>And the sons of pullman porters and the sons of engineers</em></p>
+<p style="text-align:right;"><em>Ride their father's magic carpets made of steel</em></p>
+<p style="text-align:right;"><em>Mothers with their babes asleep are rockin' to the gentle beat</em></p>
+<p style="text-align:right;"><em>And the rhythm of the rails is all they feel</em></p>
 <p style="text-align:right;"><em><a href="https://www.youtube.com/watch?v=AJMVj04lfyo">-- The City of New Orleans, Willie Nelson interpreting Steve Goodman</a></em></p>
 
 <div style="overflow:hidden;color:#000000;background-color:#ffffff;text-decoration:none;text-align:left;">So, LibreOffice does its releases on a <a href="https://en.wikipedia.org/wiki/Software_release_train">train release schedule</a> and since we recently modified the schedule a bit (<a href="http://nabble.documentfoundation.org/Minutes-of-ESC-call-td4104685.html">by putting out the alpha1 release earlier</a>), I took the opportunity to take a closer look and explain a bit on what we are doing. With this every 6 months of LibreOffice development currently roughly look like this:</div>

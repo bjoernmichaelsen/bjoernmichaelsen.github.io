@@ -82,7 +82,8 @@ From this set a few surprising takeaways:
 	<li>My TV eats 30 Watts more when displaying the black screen of a disconnected HDMI signal than with normal TV display. Maybe its expensive to search for a signal?</li>
 	<li>Compiling LibreOffice without ccache on my Notebook kicks the power consumption to 90 Watts -- but only for a few minutes. Then the thermal controls throttle the machine down to 70 or even 35 Watts, which seems all the machine can disperse over sustained periods.</li>
 </ul>
-[caption id="" align="aligncenter" width="600"]<a href="http://www.flickr.com/photos/tolomea/7067177993/sizes/c/in/photolist-bLv8Nr-78moA1-78hv6e-78hv24-78hvrZ-78hwFX-78huqp-78hw4T-78hvhT-y5teo-bTczhe-a3giZD-9nQuFg-8mVVXk-24baQ-atkT63-5usNEo-5usKiC-5uoo9P-ath8qL-7A2TfH-533GkB-9zXxP4-9zXzdX-9zXASH-P8V8J-89bnSv-6kbuMj-73czGZ-4kymTY-dEBaUS-dELMuj-5hmBZs-6aXQez-6aXSd2-6aXRBZ-6b2ZgW-aBA61h-aBzA1y-aBwYMV-aBzYn5-aBzCvo-aBA2TL-aBxhGe-aBzwWu-aBwU4a-aBzH1Q-aBxoeD-aBxeUF-aByNPY-aBxdqX/"><img alt="" src="http://farm8.staticflickr.com/7092/7067177993_4989070568_c.jpg" width="600" height="800" /></a> My electricity is 100% from water power, btw. Admittedly -- its unlikely to come from the Hoover dam, though (Image copyright CC BY 2.0 by Gordon Wrigley)[/caption]
+
+![My electricity is 100% from water power, btw. Admittedly -- its unlikely to come from the Hoover dam, though (Image copyright CC BY 2.0 by Gordon Wrigley)] (http://farm8.staticflickr.com/7092/7067177993_4989070568_c.jpg)
 
 And then there where these leftover pieces to measure, no surprises there, just a confirmation of my suspicion that the old Asus notebook I run as a home server is eating way too much power:
 <table border="0" cellspacing="0">
