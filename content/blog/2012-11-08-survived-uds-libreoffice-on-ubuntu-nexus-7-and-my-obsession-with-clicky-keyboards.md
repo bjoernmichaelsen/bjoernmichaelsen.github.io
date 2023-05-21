@@ -23,7 +23,7 @@ The first is intended to find upstream bugs and regressions and I intend to have
 
 Speaking of ARM: Ubuntu is <a href="https://wiki.ubuntu.com/Nexus7/Installation">easily installable on an Nexus 7</a> and I had to try it out obviously. Not only Ubuntu also <a href="https://www.libreoffice.org/">LibreOffice</a> is running quite nicely on it as you can see in this video (note that I even opened the document template twice in my inability to use a mouse -- I prefer keyboards):
 
-{{ youtube(id=Rcby0jlsQQI) }}
+{{ youtube(id="Rcby0jlsQQI") }}
 
 <a title="Link: LibreOffice on Ubuntu Nexus 7 and a Model M" href="http://www.youtube.com/watch?feature=player_embedded&amp;v=Rcby0jlsQQI">Link: LibreOffice on Ubuntu Nexus 7 and a Model M</a>
 

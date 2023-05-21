@@ -26,7 +26,7 @@ LibreOffice IDE integration
 </ul>
 Dont believe it? Here is a <a href="http://www.youtube.com/watch?v=-5hVXeHNt2M&amp;hd=1">video</a> featuring a stuttering german guy (me) on the audio track showing this:
 
-{{ youtube(id=-5hVXeHNt2M) }}
+{{ youtube(id="-5hVXeHNt2M") }}
 
 If you want to show this around on social media, there is also a <a href="https://www.youtube.com/watch?v=Shdfi_RKb8s&amp;hd=1">shorter version</a> featuring the essentials (make sure to link to the HD versions).
 
