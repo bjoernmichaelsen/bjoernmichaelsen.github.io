@@ -11,8 +11,10 @@ Liberated Build System: Mission accomplished!
 <p style="text-align:right;"><em>It's so hard when it doesn't come easy</em></p>
 <p style="text-align:right;"><em>It's so hard when it doesn't come fast</em></p>
 <p style="text-align:right;"><a href="https://www.youtube.com/watch?v=Avpq7wjFRDA"><em>-- So Hard, Taking The Long Way, Dixie Chicks</em></a></p>
+
 <p style="text-align:left;">So, <a href="http://blog.documentfoundation.org/2014/01/30/libreoffice-4-2-focusing-on-performance-and-interoperability-and-improving-the-integration-with-microsoft-windows/">LibreOffice 4.2 is released</a>, <a href="https://fosdem.org/2014/">FOSDEM</a> is over, was very nice and I am back home in Hamburg after a week in London. I missed the <a href="https://wiki.documentfoundation.org/Hackfest/FOSDEM2014">LibreOffice UX Hackfest</a> for that, which I heard was also awesome. So without further ado, here are the slides from my quick talk at FOSDEM:</p>
-https://speakerdeck.com/sweetshark1/liberated-build-system-mission-accomplished
+
+<!-- https://speakerdeck.com/sweetshark1/liberated-build-system-mission-accomplished -->
 
 <a href="https://speakerdeck.com/sweetshark1/liberated-build-system-mission-accomplished">(direct link if you are watching this on a planet that does not support embedded speakerdecks: https://speakerdeck.com/sweetshark1/liberated-build-system-mission-accomplished)</a>
 

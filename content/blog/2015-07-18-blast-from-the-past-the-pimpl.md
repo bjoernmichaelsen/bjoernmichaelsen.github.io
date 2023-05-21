@@ -8,9 +8,10 @@ categories=["c++", "c++11", "designpattern", "libreoffice", "pimpl", "ubuntu"]
 Blast from the Past: the Pimpl?
 ===============================
 
-<p style="text-align:right;"><em>They sentenced me to twenty years of boredom
-For trying to change the system from within
-<a href="https://www.youtube.com/watch?v=JTTC_fD598A">-- Leonard Cohen, I'm your man, First we take Manhattan</a></em></p>
+<p style="text-align:right;"><em>They sentenced me to twenty years of boredom</em></p>
+<p style="text-align:right;"><em>For trying to change the system from within</em></p>
+<p style="text-align:right;"><em><a href="https://www.youtube.com/watch?v=JTTC_fD598A">-- Leonard Cohen, I'm your man, First we take Manhattan</a></em></p>
+
 <p style="text-align:left;"><em><strong>Advance warning:</strong></em> This blog post talks about C++ coding style, and given the "expressiveness" (aka a severe infection with <a href="http://c2.com/cgi/wiki?TimTowTdi">TimTowTdi</a>) this is bound to contain significant amounts of bikeshedding, personal opinion/preference. As such, be invited to ignore all this as the ramblings of a raging lunatic.</p>
 <p style="text-align:left;">Anyone who observed me spotting <a href="http://c2.com/cgi/wiki?PimplIdiom">a Pimpl </a>in code will know that I am not a fan of this idom. Its intend is to reduce build times by using a design pattern to move implementation details out of headers -- a workaround for C++s misfeature of by default needing a recompile even for changing implementation details only without changing the public interface. Now I personally always thought a <a href="http://www.cprogramming.com/tips/tip/in-cplusplus-a-pure-abstract-base-class-is-a-contract">pure abstract base class</a> to be a more "native" and less ugly way to tell this to the compiler. However, without real testing, such gut feelings are rarely good advisors in a complex language like C++.</p>
 <p style="text-align:left;">So I did some testing on the real life performance of a pure abstract base class vs. a pimpl (each of course in a different compilation unit to prevent the compiler to optimize away what we want to measure) -- and for reference, a class with functions that can be completely inlined. These are the three test implementations, inline:</p>

@@ -10,6 +10,7 @@ Speakerdeck'd myself ... (also: LibreOffice conference 2012)
 
 <p style="text-align:right;"><em>You're so vain, I'll bet you think this song is about you.</em></p>
 <p style="text-align:right;">-- You're so vain, Carly Simon</p>
+
 <p style="text-align:left;">I just uploaded all my past and current slides to <a title="speakerdeck" href="https://speakerdeck.com/sweetshark1">speakerdeck</a>, for your pleasure and ridicule. From the just finished <a title="LibreOffice conference 2012 in Berlin" href="http://conference.libreoffice.org/" target="_blank">LibreOffice conference 2012 in Berlin</a>, this now has:</p>
 
 <ul>
@@ -23,6 +24,7 @@ If you click through all the slidedecks, you will note that for the gerrit talk,
 To the freshly volunteered canaries: I will send a you a mail on how to proceed soon, promised!
 
 Finally, I have to highlight this awesome video by Cloph, which played right after the welcome talk. It shows how awesome, diverse and buzzing the LibreOffice community has become -- <strong>One year of activity on the LibreOffice core repository</strong>:
-[youtube http://www.youtube.com/watch?v=C3To0wrawYg&amp;w=560&amp;h=315]
+
+{{ youtube(id="C3To0wrawYg") }}
 
 Originally published on 2012-10-24 20:46:27 on [wordpress](https://skyfromme.wordpress.com/2012/10/24/speakerdeckd-myself-also-libreoffice-conference-2012/).

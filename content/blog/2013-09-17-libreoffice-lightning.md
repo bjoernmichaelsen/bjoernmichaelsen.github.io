@@ -8,9 +8,10 @@ categories=["libreoffice", "ubuntu"]
 LibreOffice Lightning
 =====================
 
-<p style="text-align:right;"><em>Go, Greased Lightnin'</em>
-<em>You're burnin' up the quarter mile</em></p>
+<p style="text-align:right;"><em>Go, Greased Lightnin'</em></p>
+<p style="text-align:right;"><em>You're burnin' up the quarter mile</em></p>
 <p style="text-align:right;"><em><a href="https://www.youtube.com/watch?v=wK63eUyk-iM">-- Greased Lighting, Grease</a></em></p>
+
 <p style="text-align:left;">So the <a href="http://blog.documentfoundation.org/2013/09/16/libreoffice-conference-schedule/">conference schedule</a> for the <a href="http://conference.libreoffice.org/2013/en">LibreOffice conference in Milan</a> has just been published. The talks, workshops and sessions on the schedule encompass only the so far officially registered sessions. If you have another exciting and urgent topic that you want to share with the others at the conference, <strong>you may still get to present a lightning talk</strong> in the session on Thursday after lunch!</p>
 <p style="text-align:left;">For that, just send a email to <a href="mailto:lightningtalks@libreoffice.org">lightningtalks@libreoffice.org</a> right now containing:</p>
 
@@ -24,7 +25,8 @@ LibreOffice Lightning
 </ul>
 </li>
 </ul>
-[caption id="attachment_653" align="aligncenter" width="519"]<a href="/img/wp/2013/09/berlin2012.jpeg"><img class="size-large wp-image-653" alt="Its LibreOffice conference time again!" src="/img/wp/2013/09/berlin2012.jpeg?w=519" width="519" height="346" /></a> Its LibreOffice conference time again![/caption]
+
+![It's LibreOffice time again!](/img/wp/2013/09/berlin2012.jpeg)
 
 Excited to see you all in Milan next week!
 

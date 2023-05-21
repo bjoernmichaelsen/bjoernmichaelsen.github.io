@@ -152,15 +152,15 @@ To everyone who donated: Thank you very much!
 
 I donated <strong>225$</strong> to witness.org yesterday, which more than covers my pledge. So this is completed and I am quite happy how much we can achieve together -- you can see on the <a href="http://nabble.documentfoundation.org/2013-budget-draft-TDF-Budget-as-of-2013-01-14-td4029103.html">board-dicuss list</a>, how these donations are intended to be spend in 2013. We will get <a href="https://wiki.documentfoundation.org/Hackfest/Hamburg2012">lots of Hackers</a> <a href="https://wiki.documentfoundation.org/Marketing/Events/Fosdem2012">and Contributors</a> <a href="http://blog.pt-br.libreoffice.org/2012/12/29/from-zero-to-300-and-climbing/">to</a> <a href="https://wiki.documentfoundation.org/Hackfest/Munich2012">Hackfests</a> <a href="https://wiki.documentfoundation.org/DE/QAWochenende2012">and</a> <a href="http://conference.libreoffice.org/">events</a> and thereby make LibreOffice even better! To please keep the donations coming:
 
-<a href="http://donate.libreoffice.org/"><img class="aligncenter size-full wp-image-310" alt="donate" src="/img/wp/2012/12/libowebsitebannersdonateen400b.png" width="400" height="64" /></a>
+![donate](/img/wp/2012/12/libowebsitebannersdonateen400b.png)
 
 Here is how some Hackfests look like:
 
-[caption id="" align="aligncenter" width="1024"]<img alt="" src="http://documentfoundation.files.wordpress.com/2012/12/munich-hackfest-2012.jpeg?w=1024&amp;h=636" width="1024" height="636" /> Hackfest Munich 2012[/caption]
+![Hackfest Munich 2012](http://documentfoundation.files.wordpress.com/2012/12/munich-hackfest-2012.jpeg)
 
-[caption id="" align="aligncenter" width="800"]<img alt="" src="http://libreofficebrasil.files.wordpress.com/2012/12/sam_0027.jpg?w=800" width="800" height="450" /> Hackday Brazil 2012[/caption]
+![Hackday Brazil 2012](http://libreofficebrasil.files.wordpress.com/2012/12/sam_0027.jpg?w=800)
 
-[caption id="attachment_345" align="aligncenter" width="519"]<a href="/img/wp/2013/01/2012-11-14-libocon-group-photo1024.jpeg"><img class="size-full wp-image-345" alt="LibreOffice Conference 2012, Berlin" src="/img/wp/2013/01/2012-11-14-libocon-group-photo1024.jpeg" width="519" height="346" /></a> LibreOffice Conference 2012, Berlin[/caption]
+![LibreOffice Conference 2012, Berlin](/img/wp/2013/01/2012-11-14-libocon-group-photo1024.jpeg)
 
 Oh, and: <a href="https://fosdem.org/2013/schedule/track/libreoffice/">LibreOffice will be at FOSDEM 2013 in a few weeks like every year so far!</a>
 

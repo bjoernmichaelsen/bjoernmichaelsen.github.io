@@ -35,12 +35,12 @@ Note that the first two steps are separate: The tinderbox is essentially just as
 <h3>Coordinating multiple tinderboxes</h3>
 <p style="text-align:left;">So how do we coordinate multiple tinderboxes and ensure that e.g. if someone pushes 9 commits to master, we do not get five Linux tinderboxes to build that last commit and then sprinkle everyones mailbox over the next hour? Here is where the "coordinator" part truly kicks in. The first tinderbox that asks for something to build will get proposals with scores as shown by the green line in the chart below: The highest score is the "9" of the newest commit -- the commit that has the biggest distance from the last build. If the first tinderbox reported to have taken on that proposed build, what would a second tinderbox that also asks to build something see? It makes little sense to give it the same build as the first tinderbox. Optimistically assuming that tinderbox will report something back, the best thing this second box can do is build something with the biggest distance to to the finished build and to the build running on the first tinderbox. As such, the coordinator will send it scored as denoted by the blue line and if the tinderbox accepts it will build commit 5 -- which is why a third tinderbox asking for something to build, while the other two are running, will get proposals as per the pink line and thus be suggested to build commit 3.</p>
 
+![proposal scores with tinderboxes just started](/img/wp/2013/08/tb3started.png)
 
-[caption id="attachment_609" align="aligncenter" width="519"]<a href="/img/wp/2013/08/tb3started.png"><img class="size-large wp-image-609" alt="proposal scores with tinderboxes just started" src="/img/wp/2013/08/tb3started.png?w=519" width="519" height="344" /></a> proposal scores with tinderboxes just started[/caption]
 <h3 style="text-align:left;">Trusting tinderboxes ... a bit</h3>
 Now these tinderboxes "promised" to build some commit. But can we give the tinderbox unconstrained trust? E.g. should we never ever tell any other tinderbox to build this one commit, because some other tinderbox promised to build it? The answer is obviously no: As a tinderbox is a gift, the owner should be allowed to reboot or reassign a tinderbox for other tasks at any time with imprudence. This is why the tinderbox gives the coordinator an estimated duration for its build and the tinderbox coordinator "reserves" this commit for that time. As you did see in the last chart the commit that just had a tinderbox running got scores of zero. As time goes by the coodinator looses trust in the tinderbox to still report back: the chart below shows the scores given after twice the time the tinderbox gave as an estimate has passed. You see the blue line now scores highest at commit 6, not commit 5 and the pink line scores highest at commit 5, not commit 3 -- so as the coordinator looses trust in the running tinderboxes to come back, it again proposes to do builds closer to the already scheduled ones.
 
-[caption id="attachment_610" align="aligncenter" width="519"]<a href="/img/wp/2013/08/tb3overdue.png"><img class="size-large wp-image-610" alt="proposed scores with tinderbox results overdue" src="/img/wp/2013/08/tb3overdue.png?w=519" width="519" height="349" /></a> proposed scores with tinderbox results overdue[/caption]
+![proposed scores with tinderbox results overdue](/img/wp/2013/08/tb3overdue.png)
 
 Another thing to note is that the highest score is rising: While in the first chart, each running tinderbox lowered the highest score by one (green line: highest at 9, blue line: highest at 8, pink line: highest at 7) after twice the time has passed, the highscores are all around 9 again.
 <h3>Bisecting a breaker</h3>
@@ -49,7 +49,8 @@ Should a branch be broken, it usually would be very helpful if the tinderboxes w
 	<li>the head of the branch is still broken</li>
 	<li>there are more commits in the bisect range, than there are new commit on the branch.</li>
 </ul>
-[caption id="attachment_611" align="aligncenter" width="519"]<a href="/img/wp/2013/08/tb3bisect.png"><img class="size-large wp-image-611" alt="scores of commits in a range to bisect" src="/img/wp/2013/08/tb3bisect.png?w=519" width="519" height="361" /></a> proposal scores of commits in a range to bisect[/caption]
+
+![scores of commits in a range to bisect](/img/wp/2013/08/tb3bisect.png)
 
 Otherwise, the tinderbox will be told to build the latest commit, to check if the branch is still broken or fixed in the meantime. As such the coordinator will guard against commiting tinderboxes to bisect a breaker that was already fixed. Therefore the coordinator knows a few more states than plain 'good' or 'bad' for a commit:
 <ul>

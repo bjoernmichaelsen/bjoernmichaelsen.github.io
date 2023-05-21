@@ -8,9 +8,10 @@ categories=["libreoffice", "ubuntu"]
 Dicke Bertha online.
 ====================
 
-<p style="text-align:right;"><em>Oh Lord, won't you buy me a Mercedes Benz ?</em>
-<em> My friends all drive Porsches, I must make amends.</em></p>
+<p style="text-align:right;"><em>Oh Lord, won't you buy me a Mercedes Benz ?</em></p>
+<p style="text-align:right;"><em> My friends all drive Porsches, I must make amends.</em></p>
 <p style="text-align:right;"><em>-- Janis Joplin, Mercedes-Benz</em></p>
+
 So one cycle is over, UDS is done, blueprints are mangled -- so far nothing different for me from anyone else working on Ubuntu around this time. Ah, but then there is one more thing that is special for a LibreOffice maintainer: new hardware. Shortly before UDS I consider updating my hardware for the next cycle. This time, I did -- here is my new baby:
 
 <a href="/img/wp/2012/11/bertha2.jpg"><img class="aligncenter size-full wp-image-228" title="Dicke Bertha" alt="" src="/img/wp/2012/11/bertha2.jpg" height="775" width="519" /></a>

@@ -8,8 +8,9 @@ categories=["c++", "c++11", "libreoffice", "ubuntu"]
 I would kill 500 lines and I would kill 500 more ...
 ====================================================
 
-<p style="text-align:right;"><em>I would walk 500 miles and I would walk 500 more</em>
-<em>-- <a href="https://www.youtube.com/watch?v=tM0sTNtWDiI">The proclaimers, 500 miles</a></em></p>
+<p style="text-align:right;"><em>I would walk 500 miles and I would walk 500 more</em></p>
+<p style="text-align:right;"><em>-- <a href="https://www.youtube.com/watch?v=tM0sTNtWDiI">The proclaimers, 500 miles</a></em></p>
+
 <p style="text-align:left;">So <a href="https://twitter.com/Sweet5hark/status/613846026118668288">I recently noted</a> that github reported I have 1337 commits on LibreOffice since I joined Canonical in February 2011. Looking at those stats, it seems I also deleted some net 155,634 lines over that time in the codebase.</p>
 <p style="text-align:left;"><a href="/img/wp/2015/06/leetcommits.png"><img class="aligncenter size-large wp-image-1078" src="/img/wp/2015/06/leetcommits.png?w=519" alt="LibreOffice commits" width="519" height="213" /></a></p>
 <p style="text-align:left;">Even though I cant find that mail, I seem to remember that Michael Stahl, when joining the LibreOffice project proclaimed his goal to be to contribute 'a net negative lines of code.'<sup>1)</sup> Now I have not looked into the details of the above stats -- they might very likely reveal to be caused by some bulk change. Which would be lame, unless its the <a href="https://skyfromme.wordpress.com/2013/02/28/one/">killing of the old build system</a>, for which I think I can claim some credit. But in general I really love the idea of 'contributing a net negative number of lines of code'.</p>

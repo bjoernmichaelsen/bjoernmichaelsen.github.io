@@ -8,10 +8,10 @@ categories=["Hackfest", "libreoffice", "ubuntu"]
 Zu Spät: Hackfest Hamburg
 ==========================
 
-<p style="text-align:right;"><em>Warum hast Du mir das angetan?
-Ich hab's von einem Bekannten erfahren.
-</em>
-<em> <a href="https://www.youtube.com/watch?v=YkHP0661TiA">— Die Ärtze, Debil, Zu Spät</a></em></p>
+<p style="text-align:right;"><em>Warum hast Du mir das angetan?</em></p>
+<p style="text-align:right;"><em>Ich hab's von einem Bekannten erfahren.</em></p>
+<p style="text-align:right;"><em> <a href="https://www.youtube.com/watch?v=YkHP0661TiA">— Die Ärtze, Debil, Zu Spät</a></em></p>
+
 Its been more than two years since the <a href="https://wiki.documentfoundation.org/Hackfest/Hamburg2013">last Hackfest in Hamburg</a>! So we are indeed much too late (german: <em>Zu Spät</em>) with repeating this wonderful Event. Right a<a href="https://wiki.ubuntu.com/WilyWerewolf/ReleaseSchedule"> day after everyone updated his or her Desktop to Wily Werewolf</a> we will meet for a weekend of happy hacking again in Hamburg!
 
 

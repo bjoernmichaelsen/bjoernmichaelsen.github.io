@@ -8,9 +8,10 @@ categories=["libreoffice", "ubuntu"]
 LibreOffice 5.2.0.2 available in the snap store
 ===============================================
 
-<p style="text-align:right;"><em>'Cause the players gonna play, play, play, play, play</em>
-<em> And the haters gonna hate, hate, hate, hate, hate</em>
-<em><a href="https://www.youtube.com/watch?v=nfWlot6h_JM">— Taylor Swift, 1989, Shake It Off</a></em></p>
+<p style="text-align:right;"><em>'Cause the players gonna play, play, play, play, play</em></p>
+<p style="text-align:right;"><em>And the haters gonna hate, hate, hate, hate, hate</em></p>
+<p style="text-align:right;"><em><a href="https://www.youtube.com/watch?v=nfWlot6h_JM">— Taylor Swift, 1989, Shake It Off</a></em></p>
+
 The latest release candidate of the upcoming LibreOffice 5.2.0 feature release is available for installation from the snap store. This makes it very easy to install this prerelease of LibreOffice for testing out new features (an incomplete glimpse on what to look forward for can be found on the <a href="https://wiki.documentfoundation.org/ReleaseNotes/5.2">LibreOffice 5.2 release notes page, which is still under construction</a>, go on <a href="https://wiki.documentfoundation.org/QA/IRC">#libreoffice-qa</a> if you want to help with testing).
 
 To install this build of LibreOffice on any snap supported platform just open a terminal and run:
