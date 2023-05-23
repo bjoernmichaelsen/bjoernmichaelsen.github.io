@@ -43,5 +43,5 @@ Some background:
 Now I only need to start again to regularly write long(er) reads. I am
 intending to do that though.
 
-**Comments? Feedback? Additions? Most welcome [here on the fediverse](https://chaos.social/@Sweetshark/110407887032932765)** <img style="width:1.5em" src="/img/gh/mastodon.svg"/> **!**
+**Comments? Feedback? Additions? Most welcome [here on the fediverse](https://chaos.social/@Sweetshark/110419964941462924)** <img style="width:1.5em" src="/img/gh/mastodon.svg"/> **!**
 
