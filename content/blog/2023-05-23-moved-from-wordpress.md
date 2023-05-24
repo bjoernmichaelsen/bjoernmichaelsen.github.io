@@ -1,6 +1,7 @@
 +++
 title="Moved from wordpress"
 date=2023-05-23
+updated=2023-05-24T05:02:13Z
 [taxonomies]
 originally-published-on=["github.io"]
 categories=["libreoffice", "zola", "fediverse"]
