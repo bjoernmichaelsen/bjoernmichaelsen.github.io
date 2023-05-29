@@ -22,3 +22,9 @@ highlight_code = true
 [extra]
 # Put all your custom variables here
 author = "Bjoern Michaelsen"
+clean_blog_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/originally-published-on/github-io/atom.xml", name = "Feed"},
+    {url = "$BASE_URL/about", name = "About"},
+]
