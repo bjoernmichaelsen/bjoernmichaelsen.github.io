@@ -23,6 +23,9 @@ creative about the "dont come by car" suggestion by the organizers and our talk
 being scheduled on the first day of the event -- so we ended up honouring the
 LibreOffice tradition of finishing slides only hours before the scheduled slot.
 
+<a href="https://media.ccc.de/v/camp2023-57278-how_to_survive_being_sold_to_oracle"><img style="width:100%" src="/img/gh/cccamp2023.jpg"/></a>
+
+
 The session itself did not seem to have suffered too much by this -- it was
 more free form, which might actually have been a bonus. We ended up even being
 allowed to use some extra time for Q&A as there was quite some interest for
@@ -35,6 +38,7 @@ lessons learned that are still relevant for open source communities forking (or
 otherwise reorganizing themselves) today.
 
 <iframe width="1024" height="576" src="https://media.ccc.de/v/camp2023-57278-how_to_survive_being_sold_to_oracle/oembed" frameborder="0" allowfullscreen></iframe>
+
 
 A huge thank you to all the volunteers that made #CCCamp23 (and therefore this
 talk) happen, especially [c3voc](https://chaos.social/@c3voc) for the recording
