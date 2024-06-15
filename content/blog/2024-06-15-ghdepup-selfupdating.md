@@ -21,4 +21,4 @@ However, one thing was still missing from it: A real world use case as integrati
 Should you use ghdepup now, when renovate and dependabot exist? In most current environments probably not, as the latter are more flexible and powerful. However, if you want an dependency updater that is so simple you wouldnt be scared to fork it anytime, you might want to give ghdepup a look. 
 
 
-**Comments? Feedback? Additions? Most welcome [here on the fediverse](https://chaos.social/@Sweetshark/)** <img style="width:1.5em" src="/img/gh/mastodon.svg"/> **!**
+**Comments? Feedback? Additions? Most welcome [here on the fediverse](https://chaos.social/@Sweetshark/112620692649905658)** <img style="width:1.5em" src="/img/gh/mastodon.svg"/> **!**
