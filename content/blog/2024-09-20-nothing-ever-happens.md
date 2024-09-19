@@ -11,7 +11,7 @@ Nothing ever happens.
 <div style="text-align: right;"><em>And nothing ever happens, nothing happens at all</br>
 The needle returns to the start of the song</br>
 And we all sing along like before</br>
--- [Del Amitri, Nothing Ever Happens](https://www.youtube.com/watch?v=TxbIU0X-lCI)</em></div>
+-- <a href="https://www.youtube.com/watch?v=TxbIU0X-lCI">Del Amitri, Nothing Ever Happens</a></em></div>
 
 In my [last post on Libreoffice](../writer-again/) I promised to talk about Writer changes once in a while, but then ... nothing ever happened. However, given that I had an annoying motorcycle accident in the meantime that turned out much more persistently annoying than originally thought, I think I have a bit of an excuse.
 
@@ -63,4 +63,4 @@ question might actually be faster, but other functions (e.g. the inserting of
 new bookmarks) might actually be slower. So ... this is left as an exercise to
 the reader.
 
-**Comments? Feedback? Additions? Most welcome [here on the fediverse](https://chaos.social/@Sweetshark/)** <img style="width:1.5em" src="/img/gh/mastodon.svg"/> **!**
+**Comments? Feedback? Additions? Most welcome [here on the fediverse](https://chaos.social/@Sweetshark/113166795661703346)** <img style="width:1.5em" src="/img/gh/mastodon.svg"/> **!**
